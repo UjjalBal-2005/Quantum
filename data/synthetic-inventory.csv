@@ -1,0 +1,13 @@
+product_id,product,category,current_stock,reorder_level,quantity_received,stock_availability,incoming_stock,lead_time_days,shelf_life_days
+SKU-101,Fresh Whole Milk 1L,Dairy,14,25,0,low_stock,0,3,7
+SKU-102,Artisan Sourdough Loaf,Bakery,9,20,0,low_stock,0,2,4
+SKU-103,Greek Yogurt 500g,Dairy,32,18,12,in_stock,12,3,14
+SKU-104,Free-Range Eggs 12pk,Dairy,62,22,0,in_stock,0,3,21
+SKU-105,Organic Baby Spinach 250g,Produce,260,15,0,in_stock,0,2,5
+SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,20,0,low_stock,0,4,10
+SKU-107,Roast Arabica Coffee 250g,Pantry,44,16,0,in_stock,0,5,
+SKU-108,Extra Virgin Olive Oil 500ml,Pantry,95,12,0,in_stock,0,5,
+SKU-109,Sparkling Craft Cola 6pk,Beverages,110,24,24,in_stock,24,3,
+SKU-110,Laundry Detergent Pods 30ct,Household,195,10,0,in_stock,0,4,
+SKU-111,Basmati Rice 2kg,Pantry,120,20,0,in_stock,0,4,
+SKU-112,Seasonal Truffle Oil 100ml,Pantry,16,6,0,in_stock,0,4,

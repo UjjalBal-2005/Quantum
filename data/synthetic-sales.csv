@@ -1,0 +1,1323 @@
+date,product_id,product,category,quantity_sold,selling_price,promotion_name,is_promotion
+2026-07-30,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-07-31,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-01,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
+2026-08-02,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-08-03,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-04,SKU-101,Fresh Whole Milk 1L,Dairy,14,3.49,,0
+2026-08-05,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-08-06,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-08-07,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-08,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
+2026-08-09,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
+2026-08-10,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-08-11,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-08-12,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-13,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-08-14,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-08-15,SKU-101,Fresh Whole Milk 1L,Dairy,36,3.49,,0
+2026-08-16,SKU-101,Fresh Whole Milk 1L,Dairy,30,3.49,,0
+2026-08-17,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-18,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-19,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-08-20,SKU-101,Fresh Whole Milk 1L,Dairy,15,3.49,,0
+2026-08-21,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-08-22,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-08-23,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
+2026-08-24,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-08-25,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-08-26,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-08-27,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-08-28,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-08-29,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-08-30,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
+2026-08-31,SKU-101,Fresh Whole Milk 1L,Dairy,12,3.49,,0
+2026-09-01,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-09-02,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-09-03,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-09-04,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-09-05,SKU-101,Fresh Whole Milk 1L,Dairy,33,3.49,Labor Weekend Promo,1
+2026-09-06,SKU-101,Fresh Whole Milk 1L,Dairy,38,3.49,Labor Weekend Promo,1
+2026-09-07,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-09-08,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-09-09,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-09-10,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-09-11,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-09-12,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-09-13,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-09-14,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-09-15,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-09-16,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-09-17,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-09-18,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-09-19,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-09-20,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
+2026-09-21,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
+2026-09-22,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-09-23,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-09-24,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-09-25,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
+2026-09-26,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-09-27,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
+2026-09-28,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
+2026-09-29,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-09-30,SKU-101,Fresh Whole Milk 1L,Dairy,15,3.49,,0
+2026-10-01,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-10-02,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-10-03,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
+2026-10-04,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
+2026-10-05,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-10-06,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-10-07,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-10-08,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-10-09,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
+2026-10-10,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
+2026-10-11,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
+2026-10-12,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
+2026-10-13,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
+2026-10-14,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-10-15,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
+2026-10-16,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-10-17,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
+2026-10-18,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
+2026-10-19,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-10-20,SKU-101,Fresh Whole Milk 1L,Dairy,14,3.49,,0
+2026-10-21,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-10-22,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-10-23,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-10-24,SKU-101,Fresh Whole Milk 1L,Dairy,31,3.49,,0
+2026-10-25,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-10-26,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-10-27,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-10-28,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
+2026-10-29,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-10-30,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-10-31,SKU-101,Fresh Whole Milk 1L,Dairy,35,3.49,,0
+2026-11-01,SKU-101,Fresh Whole Milk 1L,Dairy,30,3.49,,0
+2026-11-02,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
+2026-11-03,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
+2026-11-04,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-11-05,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
+2026-11-06,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-07,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,,0
+2026-11-08,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
+2026-11-09,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-10,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
+2026-11-11,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-11-12,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
+2026-11-13,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-11-14,SKU-101,Fresh Whole Milk 1L,Dairy,39,3.49,Mid-Month Mega Sale,1
+2026-11-15,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,Mid-Month Mega Sale,1
+2026-11-16,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-11-17,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
+2026-11-18,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-19,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-20,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
+2026-11-21,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,,0
+2026-11-22,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
+2026-11-23,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-24,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
+2026-11-25,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
+2026-11-26,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
+2026-07-30,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-07-31,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-08-01,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-08-02,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
+2026-08-03,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-08-04,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-08-05,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-08-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-08-07,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
+2026-08-08,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
+2026-08-09,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-08-10,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-08-11,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
+2026-08-12,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
+2026-08-13,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-08-14,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-08-15,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,,0
+2026-08-16,SKU-102,Artisan Sourdough Loaf,Bakery,24,5.25,,0
+2026-08-17,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-08-18,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-08-19,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-08-20,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-08-21,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-08-22,SKU-102,Artisan Sourdough Loaf,Bakery,26,5.25,,0
+2026-08-23,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
+2026-08-24,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-08-25,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
+2026-08-26,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-08-27,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-08-28,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-08-29,SKU-102,Artisan Sourdough Loaf,Bakery,25,5.25,,0
+2026-08-30,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-08-31,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-09-01,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-02,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-03,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-04,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-09-05,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,Labor Weekend Promo,1
+2026-09-06,SKU-102,Artisan Sourdough Loaf,Bakery,32,5.25,Labor Weekend Promo,1
+2026-09-07,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-08,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-09-09,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-10,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-11,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-09-12,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-09-13,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-09-14,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-09-15,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
+2026-09-16,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-09-17,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-18,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-09-19,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
+2026-09-20,SKU-102,Artisan Sourdough Loaf,Bakery,19,5.25,,0
+2026-09-21,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-22,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-09-23,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-09-24,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-09-25,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-09-26,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
+2026-09-27,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-09-28,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-09-29,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
+2026-09-30,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-10-01,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-10-02,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-03,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-10-04,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-10-05,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-10-07,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-10-08,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-09,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-10-10,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-10-11,SKU-102,Artisan Sourdough Loaf,Bakery,27,5.25,,0
+2026-10-12,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-10-13,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
+2026-10-14,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-15,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-10-16,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-10-17,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-10-18,SKU-102,Artisan Sourdough Loaf,Bakery,27,5.25,,0
+2026-10-19,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-20,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-10-21,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-22,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-10-23,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-10-24,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-10-25,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-10-26,SKU-102,Artisan Sourdough Loaf,Bakery,10,5.25,,0
+2026-10-27,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-10-28,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
+2026-10-29,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
+2026-10-30,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-10-31,SKU-102,Artisan Sourdough Loaf,Bakery,32,5.25,,0
+2026-11-01,SKU-102,Artisan Sourdough Loaf,Bakery,29,5.25,,0
+2026-11-02,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-11-03,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
+2026-11-04,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-11-05,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-07,SKU-102,Artisan Sourdough Loaf,Bakery,25,5.25,,0
+2026-11-08,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-11-09,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
+2026-11-10,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-11-11,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
+2026-11-12,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-13,SKU-102,Artisan Sourdough Loaf,Bakery,10,5.25,,0
+2026-11-14,SKU-102,Artisan Sourdough Loaf,Bakery,31,5.25,Mid-Month Mega Sale,1
+2026-11-15,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,Mid-Month Mega Sale,1
+2026-11-16,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-11-17,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-18,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-19,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-11-20,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-11-21,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
+2026-11-22,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
+2026-11-23,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
+2026-11-24,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
+2026-11-25,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
+2026-11-26,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
+2026-07-30,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-07-31,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-08-01,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-08-02,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-03,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-08-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-05,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-08-06,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-07,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-08-08,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-09,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-10,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-11,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-12,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-08-13,SKU-103,Greek Yogurt 500g,Dairy,16,4.5,,0
+2026-08-14,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-08-15,SKU-103,Greek Yogurt 500g,Dairy,19,4.5,,0
+2026-08-16,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-08-17,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-08-18,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-08-19,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-20,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-08-21,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-08-22,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-08-23,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-08-24,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-08-25,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-08-26,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-08-27,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-08-28,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-08-29,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-08-30,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-08-31,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-09-01,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-09-02,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-09-03,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-09-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-09-05,SKU-103,Greek Yogurt 500g,Dairy,19,4.5,Labor Weekend Promo,1
+2026-09-06,SKU-103,Greek Yogurt 500g,Dairy,18,4.5,Labor Weekend Promo,1
+2026-09-07,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-09-08,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-09-09,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-10,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-11,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-12,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-13,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-09-14,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-09-15,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-16,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-17,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-09-18,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-09-19,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-09-20,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-09-21,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-22,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-09-23,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-09-24,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-09-25,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-09-26,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
+2026-09-27,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-09-28,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-09-29,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-09-30,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-01,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-10-02,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-10-03,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-10-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-10-05,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-10-06,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-07,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-10-08,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-09,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-10-10,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-10-11,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-10-12,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-10-13,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-10-14,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-10-15,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-16,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-10-17,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
+2026-10-18,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
+2026-10-19,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-10-20,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-21,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-10-22,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-10-23,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-10-24,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-25,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
+2026-10-26,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-10-27,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
+2026-10-28,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-10-29,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-10-30,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-10-31,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
+2026-11-01,SKU-103,Greek Yogurt 500g,Dairy,16,4.5,,0
+2026-11-02,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
+2026-11-03,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-11-04,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-11-05,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-11-06,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-11-07,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-11-08,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-11-09,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-11-10,SKU-103,Greek Yogurt 500g,Dairy,68,4.5,,0
+2026-11-11,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-11-12,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-11-13,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-11-14,SKU-103,Greek Yogurt 500g,Dairy,18,4.5,Mid-Month Mega Sale,1
+2026-11-15,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,Mid-Month Mega Sale,1
+2026-11-16,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
+2026-11-17,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
+2026-11-18,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-11-19,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-11-20,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-11-21,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-11-22,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
+2026-11-23,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-11-24,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
+2026-11-25,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
+2026-11-26,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
+2026-07-30,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-07-31,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-08-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-08-02,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-08-03,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-08-04,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-08-05,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-08-06,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-08-07,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-08-08,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-08-09,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-08-10,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-08-11,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-08-12,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-08-13,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-08-14,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-08-15,SKU-104,Free-Range Eggs 12pk,Dairy,24,5.99,,0
+2026-08-16,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-08-17,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-08-18,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-08-19,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-08-20,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-08-21,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-08-22,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
+2026-08-23,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-08-24,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-08-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-08-26,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-08-27,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-08-28,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-08-29,SKU-104,Free-Range Eggs 12pk,Dairy,23,5.99,,0
+2026-08-30,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-08-31,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-09-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-09-02,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-09-03,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-09-04,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-09-05,SKU-104,Free-Range Eggs 12pk,Dairy,26,5.99,Labor Weekend Promo,1
+2026-09-06,SKU-104,Free-Range Eggs 12pk,Dairy,24,5.99,Labor Weekend Promo,1
+2026-09-07,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-09-08,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-09-09,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-09-10,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
+2026-09-11,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-09-12,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
+2026-09-13,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-09-14,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-09-15,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-09-16,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-09-17,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-09-18,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-09-19,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-09-20,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-09-21,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-09-22,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-09-23,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-09-24,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-09-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-09-26,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
+2026-09-27,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-09-28,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-09-29,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-09-30,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-10-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-10-02,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-10-03,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-10-04,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-10-05,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-10-06,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-10-07,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
+2026-10-08,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-10-09,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-10-10,SKU-104,Free-Range Eggs 12pk,Dairy,23,5.99,,0
+2026-10-11,SKU-104,Free-Range Eggs 12pk,Dairy,25,5.99,,0
+2026-10-12,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-10-13,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-10-14,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-10-15,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
+2026-10-16,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
+2026-10-17,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
+2026-10-18,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-10-19,SKU-104,Free-Range Eggs 12pk,Dairy,10,5.99,,0
+2026-10-20,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
+2026-10-21,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-10-22,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-10-23,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-10-24,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-10-25,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-10-26,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-10-27,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-10-28,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-10-29,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-10-30,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-10-31,SKU-104,Free-Range Eggs 12pk,Dairy,26,5.99,,0
+2026-11-01,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
+2026-11-02,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
+2026-11-03,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-11-04,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-11-05,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-11-06,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-11-07,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
+2026-11-08,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
+2026-11-09,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-11-10,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-11-11,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-11-12,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-11-13,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
+2026-11-14,SKU-104,Free-Range Eggs 12pk,Dairy,29,5.99,Mid-Month Mega Sale,1
+2026-11-15,SKU-104,Free-Range Eggs 12pk,Dairy,25,5.99,Mid-Month Mega Sale,1
+2026-11-16,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-11-17,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-11-18,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-11-19,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
+2026-11-20,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-11-21,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-11-22,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
+2026-11-23,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
+2026-11-24,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
+2026-11-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
+2026-11-26,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
+2026-07-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-07-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-01,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-02,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-08-03,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-04,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
+2026-08-05,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-08-06,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-07,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-08-08,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-09,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-10,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-11,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-12,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-13,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-08-14,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-16,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-17,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-08-18,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-20,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-21,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-08-22,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-23,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-08-24,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-25,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-27,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-08-28,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-08-29,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-30,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-08-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-01,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-09-02,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-03,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
+2026-09-04,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-05,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,Labor Weekend Promo,1
+2026-09-06,SKU-105,Organic Baby Spinach 250g,Produce,11,3.99,Labor Weekend Promo,1
+2026-09-07,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-08,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-09,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-10,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-09-11,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-09-12,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-13,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-14,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-15,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-16,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-18,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-19,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-09-20,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-09-22,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-09-23,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
+2026-09-24,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-25,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-27,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-28,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-09-29,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
+2026-09-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-01,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-02,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-03,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-10-04,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-10-05,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-06,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-07,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-08,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-09,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-10,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-10-11,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-10-12,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-10-13,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-14,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-10-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-10-16,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-18,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-10-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-20,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-22,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-10-23,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
+2026-10-24,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-10-25,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-10-26,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-27,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-28,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-29,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-10-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-10-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-01,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-11-02,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-11-03,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-04,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-05,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-06,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-11-07,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-11-08,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-11-09,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-10,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-11,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-11-12,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-13,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-14,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,Mid-Month Mega Sale,1
+2026-11-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,Mid-Month Mega Sale,1
+2026-11-16,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-18,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-20,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-11-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-22,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
+2026-11-23,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
+2026-11-24,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
+2026-11-25,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
+2026-11-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
+2026-07-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-07-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-08-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-08-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-08-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-08-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-08-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
+2026-08-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-08-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-08-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
+2026-08-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-08-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-08-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-08-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-08-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,23,4.99,,0
+2026-08-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-08-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-08-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-08-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-08-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-08-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-08-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-08-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-08-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-08-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-08-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-08-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,23,4.99,Labor Weekend Promo,1
+2026-09-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,22,4.99,Labor Weekend Promo,1
+2026-09-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-09-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-09-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
+2026-09-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-09-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-09-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-09-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-09-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-09-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-09-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-09-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-09-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-09-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-09-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-09-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-09-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-09-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-10-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-10-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-10-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-10-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-10-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-10-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
+2026-10-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-10-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-10-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-10-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-10-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-10-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-10-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
+2026-10-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-10-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-10-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-10-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-10-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-10-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-10-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-10-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-10-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-10-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-10-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-10-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,21,4.99,,0
+2026-11-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-11-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-11-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-11-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
+2026-11-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
+2026-11-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-11-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
+2026-11-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-11-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-11-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-11-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-11-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-11-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-11-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,22,4.99,Mid-Month Mega Sale,1
+2026-11-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,24,4.99,Mid-Month Mega Sale,1
+2026-11-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
+2026-11-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-11-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
+2026-11-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-11-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-11-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
+2026-11-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
+2026-11-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
+2026-11-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
+2026-11-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
+2026-11-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
+2026-07-30,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-07-31,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-08-01,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-08-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-03,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
+2026-08-04,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-06,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-07,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-08-08,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-08-09,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-10,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-11,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-08-12,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-13,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-14,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-15,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,,0
+2026-08-16,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-08-17,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-18,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-08-19,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-20,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-08-21,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-22,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
+2026-08-23,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-08-24,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
+2026-08-25,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-08-26,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-27,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-08-28,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-29,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-08-30,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
+2026-08-31,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-01,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-02,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-09-03,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-04,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-05,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,Labor Weekend Promo,1
+2026-09-06,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,Labor Weekend Promo,1
+2026-09-07,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-08,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-09,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-09-10,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-11,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-12,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-13,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-14,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-09-15,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-16,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-09-17,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-09-18,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-19,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-20,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-09-21,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-22,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-24,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-09-25,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-09-26,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-27,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-28,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-09-29,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-09-30,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-01,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-03,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
+2026-10-04,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-10-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-06,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-07,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-08,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-09,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-10,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
+2026-10-11,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-12,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
+2026-10-13,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,,0
+2026-10-14,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-10-15,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-16,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-10-17,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-18,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-19,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-20,SKU-107,Roast Arabica Coffee 250g,Pantry,4,9.99,,0
+2026-10-21,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-10-22,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-24,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-25,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-26,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-27,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-28,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-10-29,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-10-30,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-10-31,SKU-107,Roast Arabica Coffee 250g,Pantry,15,9.99,,0
+2026-11-01,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-03,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-04,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-06,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-11-07,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
+2026-11-08,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-09,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-11-10,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
+2026-11-11,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-11-12,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-13,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-11-14,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,Mid-Month Mega Sale,1
+2026-11-15,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,Mid-Month Mega Sale,1
+2026-11-16,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-11-17,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-11-18,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-11-19,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-11-20,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-21,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
+2026-11-22,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
+2026-11-24,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
+2026-11-25,SKU-107,Roast Arabica Coffee 250g,Pantry,5,9.99,,0
+2026-11-26,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,,0
+2026-07-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-07-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-08-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-08-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-08-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
+2026-08-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-08-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
+2026-08-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-08-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-08-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-08-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-08-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-08-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-08-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-09-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,10,12.5,Labor Weekend Promo,1
+2026-09-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,Labor Weekend Promo,1
+2026-09-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-09-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-09-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-09-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-09-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-09-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-09-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-09-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-09-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-09-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-10-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-10-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-10-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-10-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-10-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-10-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-10-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-10-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-10-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-10-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-10-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-10-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-10-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-10-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
+2026-11-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-11-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-11-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-11-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-11-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-11-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-11-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-11-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
+2026-11-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-11-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,Mid-Month Mega Sale,1
+2026-11-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,10,12.5,Mid-Month Mega Sale,1
+2026-11-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,2,12.5,,0
+2026-11-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-11-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-11-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-11-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
+2026-11-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
+2026-11-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
+2026-11-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
+2026-07-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-07-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-08-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
+2026-08-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,16,6.49,,0
+2026-08-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-08-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-08-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,17,6.49,,0
+2026-08-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-08-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
+2026-08-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
+2026-08-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-08-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-08-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-08-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
+2026-08-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-08-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-08-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,35,6.49,,0
+2026-08-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
+2026-08-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-08-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-08-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,16,6.49,,0
+2026-08-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-08-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-08-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
+2026-08-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
+2026-08-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,10,6.49,,0
+2026-08-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-08-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-08-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-08-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-08-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
+2026-08-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-08-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-09-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-09-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,34,6.49,Labor Weekend Promo,1
+2026-09-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,36,6.49,Labor Weekend Promo,1
+2026-09-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-09-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-09-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-09-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,8,6.49,,0
+2026-09-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-09-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
+2026-09-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
+2026-09-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-09-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-09-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-09-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-09-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,18,6.49,,0
+2026-09-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-09-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-09-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-09-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-09-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,23,6.49,,0
+2026-09-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-09-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-09-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-09-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-10-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-10-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,23,6.49,,0
+2026-10-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
+2026-10-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-10-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-10-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
+2026-10-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-10-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-10-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-10-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-10-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-10-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-10-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-10-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
+2026-10-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
+2026-10-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-10-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-10-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
+2026-10-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-10-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,32,6.49,,0
+2026-11-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-11-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-11-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-11-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-11-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-11-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-11-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
+2026-11-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-11-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
+2026-11-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-11-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-11-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
+2026-11-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-11-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,31,6.49,Mid-Month Mega Sale,1
+2026-11-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,30,6.49,Mid-Month Mega Sale,1
+2026-11-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,18,6.49,,0
+2026-11-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-11-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-11-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-11-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
+2026-11-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
+2026-11-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,17,6.49,,0
+2026-11-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
+2026-11-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,10,6.49,,0
+2026-11-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
+2026-11-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
+2026-07-30,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-07-31,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-01,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-02,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-08-03,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-04,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-05,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-06,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-07,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-08,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-09,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-10,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-13,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-14,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-15,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-08-16,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-17,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-18,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-20,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-21,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-22,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-08-23,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-08-24,SKU-110,Laundry Detergent Pods 30ct,Household,2,14.99,,0
+2026-08-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-26,SKU-110,Laundry Detergent Pods 30ct,Household,1,14.99,,0
+2026-08-27,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-28,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-08-29,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-30,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-08-31,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-01,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-02,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-09-03,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-09-04,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-05,SKU-110,Laundry Detergent Pods 30ct,Household,7,14.99,Labor Weekend Promo,1
+2026-09-06,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,Labor Weekend Promo,1
+2026-09-07,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-08,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-09-09,SKU-110,Laundry Detergent Pods 30ct,Household,2,14.99,,0
+2026-09-10,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-09-11,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-13,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-14,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-09-15,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-16,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-17,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-09-18,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-20,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-09-21,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-22,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-09-23,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-24,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-26,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-27,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-28,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-09-29,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-09-30,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-01,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-02,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-03,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-10-04,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-05,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-06,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-07,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-08,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-09,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-10,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-13,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-14,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-15,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-16,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-17,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-18,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-20,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-21,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-10-22,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-23,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-24,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-25,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-26,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-27,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-28,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-29,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-10-30,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-10-31,SKU-110,Laundry Detergent Pods 30ct,Household,7,14.99,,0
+2026-11-01,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-11-02,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-03,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-04,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-11-05,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-06,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-07,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-11-08,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-09,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-11-10,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-11-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-13,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-11-14,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,Mid-Month Mega Sale,1
+2026-11-15,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,Mid-Month Mega Sale,1
+2026-11-16,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-17,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-18,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-20,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-21,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-22,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
+2026-11-23,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-24,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
+2026-11-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
+2026-11-26,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
+2026-07-30,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-07-31,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-01,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-08-02,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-03,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-05,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-06,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-08,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-08-09,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-08-10,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-11,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-12,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-13,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-08-14,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-08-15,SKU-111,Basmati Rice 2kg,Pantry,16,7.49,,0
+2026-08-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-17,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-18,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-19,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-08-20,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-21,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-08-22,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-23,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-08-24,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-08-25,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-08-26,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-08-27,SKU-111,Basmati Rice 2kg,Pantry,6,7.49,,0
+2026-08-28,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-29,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-08-30,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-08-31,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-09-01,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-09-02,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-03,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-05,SKU-111,Basmati Rice 2kg,Pantry,16,7.49,Labor Weekend Promo,1
+2026-09-06,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Labor Weekend Promo,1
+2026-09-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-08,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-10,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-11,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-12,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
+2026-09-13,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-09-14,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-09-15,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-17,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-18,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-19,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-09-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-09-21,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-22,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-23,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-09-24,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-25,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-09-26,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-09-27,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-09-28,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-09-29,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-09-30,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-10-01,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-10-02,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-10-03,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-10-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-05,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-06,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-08,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-10-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-10,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-10-11,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-10-12,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
+2026-10-13,SKU-111,Basmati Rice 2kg,Pantry,14,7.49,,0
+2026-10-14,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-10-15,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-16,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-17,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-18,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-10-19,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-21,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-10-22,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-23,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-10-24,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
+2026-10-25,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-10-26,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-10-27,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-28,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-29,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-10-30,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-10-31,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,,0
+2026-11-01,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-11-02,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-03,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-04,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-11-05,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-11-06,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-11-07,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
+2026-11-08,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-11-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-10,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
+2026-11-11,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-11-12,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-11-13,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
+2026-11-14,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Mid-Month Mega Sale,1
+2026-11-15,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Mid-Month Mega Sale,1
+2026-11-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-17,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-11-18,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-19,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
+2026-11-21,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-11-22,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-11-23,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-11-24,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
+2026-11-25,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
+2026-11-26,SKU-111,Basmati Rice 2kg,Pantry,14,7.49,,0
+2026-11-18,SKU-112,Seasonal Truffle Oil 100ml,Pantry,4,18.0,,0
+2026-11-24,SKU-112,Seasonal Truffle Oil 100ml,Pantry,1,18.0,,0
