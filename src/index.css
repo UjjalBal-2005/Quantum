@@ -743,3 +743,96 @@ body {
   color: var(--healthy);
   font-weight: 700;
 }
+
+.ml-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.ml-status-pill.online {
+  background: #f0fdf4;
+  color: #15803d;
+  border-color: #bbf7d0;
+}
+
+.ml-status-pill.offline {
+  background: #f8fafc;
+  color: var(--muted);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ml-status-pill.online .status-dot {
+  background: #16a34a;
+}
+
+.ml-status-pill.offline .status-dot {
+  background: #94a3b8;
+}
+
+.badge-ml {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.ml-drivers-box {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ml-drivers-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.driver-row {
+  display: grid;
+  grid-template-columns: 130px 1fr 40px;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+}
+
+.driver-label {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.driver-bar-track {
+  height: 7px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.driver-bar-fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 999px;
+}
+
+.driver-pct {
+  text-align: right;
+  font-weight: 600;
+  color: var(--muted);
+}

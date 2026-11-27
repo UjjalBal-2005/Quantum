@@ -4,21 +4,31 @@ A dependency-light, browser-only React + TypeScript application that helps store
 
 ## Local Startup
 
+### Option A: Browser-Only (Statistical Engine)
 1. Ensure Node.js (v18+) and npm are installed.
-2. Install dependencies:
+2. Install dependencies and start Vite:
    ```bash
    npm install
-   ```
-3. Start the local dev server:
-   ```bash
    npm run dev
    ```
-4. Open the local URL shown in the terminal (typically `http://localhost:5173`).
-5. For a production build:
+3. Open the local URL shown in the terminal (typically `http://localhost:5173`).
+
+### Option B: With Local Python ML Service (`scikit-learn` + `FastAPI`)
+1. **Terminal 1 — Start Python ML Service:**
    ```bash
-   npm run build
-   npm run preview
+   cd ml-service
+   python -m venv .venv
+   # Windows: .venv\Scripts\activate
+   # macOS/Linux: source .venv/bin/activate
+   pip install -r requirements.txt
+   uvicorn main:app --reload --port 8000
    ```
+2. **Terminal 2 — Start React + TypeScript App:**
+   ```bash
+   npm install
+   npm run dev
+   ```
+3. When `http://localhost:8000/health` is reachable, the UI status pill turns green (`Python ML Connected`) and trains `RandomForestRegressor` & `RandomForestClassifier` models locally on your CSV data. If the Python service is stopped, the app automatically falls back to the browser statistical engine.
 
 ## Architecture & Track Summary
 

@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { HoldoutReplayView } from './components/HoldoutReplayView';
 import { ProductInspector } from './components/ProductInspector';
 import { TopControlBar } from './components/TopControlBar';
@@ -6,10 +6,14 @@ import { loadSyntheticDataset } from './data/syntheticLoader';
 import { inferNextAsOfDate, prepareForecastContext } from './engine/forecaster';
 import { evaluateProductReplenishment, sortRecommendations } from './engine/replenishment';
 import { runHoldoutEvaluation } from './engine/replaySimulator';
+import { checkMlHealth, requestMlForecast, requestMlHoldout } from './services/mlApiClient';
 import {
   CalendarRecord,
   DataIssue,
+  ForecastEngineMode,
   ForecastHorizon,
+  MlHoldoutEvalResponse,
+  MlProductResult,
   RetailDataset,
   SalesRecord,
 } from './types/domain';
@@ -43,6 +47,26 @@ export const App: React.FC = () => {
   const [riskFilter, setRiskFilter] = useState<RiskFilter>('All');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showWarnings, setShowWarnings] = useState<boolean>(false);
+
+  const [engineMode, setEngineMode] = useState<ForecastEngineMode>('statistical');
+  const [mlOnline, setMlOnline] = useState<boolean>(false);
+  const [mlLoading, setMlLoading] = useState<boolean>(false);
+  const [mlTrainingMs, setMlTrainingMs] = useState<number | null>(null);
+  const [mlResults, setMlResults] = useState<MlProductResult[]>([]);
+  const [mlHoldout, setMlHoldout] = useState<MlHoldoutEvalResponse | null>(null);
+  const [mlHoldoutLoading, setMlHoldoutLoading] = useState<boolean>(false);
+
+  const refreshMlHealth = useCallback(async () => {
+    const ok = await checkMlHealth();
+    setMlOnline(ok);
+    return ok;
+  }, []);
+
+  useEffect(() => {
+    void refreshMlHealth().then((ok) => {
+      if (ok) setEngineMode('python_ml');
+    });
+  }, [refreshMlHealth]);
 
   const handleUploadCsvs = (salesText: string, invText: string, calText: string, label: string) => {
     const sales = parseCsvFile(salesText, 'sales', 'sales.csv');
@@ -78,6 +102,74 @@ export const App: React.FC = () => {
   const errors = useMemo(() => issues.filter((i) => i.severity === 'error'), [issues]);
   const warnings = useMemo(() => issues.filter((i) => i.severity === 'warning'), [issues]);
 
+  // Fetch Python ML forecast whenever python_ml mode is active and service is online
+  useEffect(() => {
+    if (engineMode !== 'python_ml' || !mlOnline || dataset.inventory.length === 0) {
+      if (engineMode === 'statistical') {
+        setMlResults([]);
+        setMlTrainingMs(null);
+      }
+      return;
+    }
+
+    let cancelled = false;
+    setMlLoading(true);
+    requestMlForecast({
+      sales: dataset.sales,
+      inventory: dataset.inventory,
+      calendar: dataset.calendar,
+      horizonDays: horizon,
+      defaultLeadTimeDays: globalLeadTime,
+    })
+      .then((res) => {
+        if (cancelled) return;
+        setMlResults(res.results);
+        setMlTrainingMs(res.trainingTimeMs);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setMlOnline(false);
+        setMlResults([]);
+        setMlTrainingMs(null);
+      })
+      .finally(() => {
+        if (!cancelled) setMlLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [engineMode, mlOnline, dataset, horizon, globalLeadTime]);
+
+  // Fetch Python ML 28-day holdout when viewing the Holdout tab and Python ML is online
+  useEffect(() => {
+    if (activeTab !== 'holdout' || !mlOnline || dataset.inventory.length === 0) {
+      return;
+    }
+    let cancelled = false;
+    setMlHoldoutLoading(true);
+    requestMlHoldout({
+      sales: dataset.sales,
+      inventory: dataset.inventory,
+      calendar: dataset.calendar,
+      horizonDays: horizon,
+      defaultLeadTimeDays: globalLeadTime,
+    })
+      .then((res) => {
+        if (!cancelled) setMlHoldout(res);
+      })
+      .catch(() => {
+        if (!cancelled) setMlHoldout(null);
+      })
+      .finally(() => {
+        if (!cancelled) setMlHoldoutLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [activeTab, mlOnline, dataset, horizon, globalLeadTime]);
+
   const calendarByDate = useMemo(() => {
     const map = new Map<string, CalendarRecord>();
     for (const c of dataset.calendar) map.set(c.date, c);
@@ -94,15 +186,29 @@ export const App: React.FC = () => {
     return map;
   }, [dataset.sales]);
 
+  const mlResultByProduct = useMemo(() => {
+    const map = new Map<string, MlProductResult>();
+    if (engineMode === 'python_ml' && mlOnline) {
+      for (const r of mlResults) map.set(r.productId, r);
+    }
+    return map;
+  }, [engineMode, mlOnline, mlResults]);
+
   const recommendations = useMemo(() => {
     if (dataset.inventory.length === 0) return [];
     const asOfDate = inferNextAsOfDate(dataset.sales);
     const ctx = prepareForecastContext(dataset.sales, dataset.calendar, asOfDate);
     const items = dataset.inventory.map((inv) =>
-      evaluateProductReplenishment(inv, horizon, globalLeadTime, ctx)
+      evaluateProductReplenishment(
+        inv,
+        horizon,
+        globalLeadTime,
+        ctx,
+        mlResultByProduct.get(inv.product_id)
+      )
     );
     return sortRecommendations(items);
-  }, [dataset.inventory, dataset.sales, dataset.calendar, horizon, globalLeadTime]);
+  }, [dataset.inventory, dataset.sales, dataset.calendar, horizon, globalLeadTime, mlResultByProduct]);
 
   const filteredItems = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
@@ -175,6 +281,14 @@ export const App: React.FC = () => {
         onGlobalLeadTimeChange={setGlobalLeadTime}
         showSafetyBuffer={showSafetyBuffer}
         onToggleSafetyBuffer={() => setShowSafetyBuffer((v) => !v)}
+        engineMode={engineMode}
+        onEngineModeChange={setEngineMode}
+        mlOnline={mlOnline}
+        mlTrainingMs={mlTrainingMs}
+        mlLoading={mlLoading}
+        onRefreshMlHealth={() => {
+          void refreshMlHealth();
+        }}
         sourceLabel={sourceLabel}
         onUploadCsvs={handleUploadCsvs}
         onResetDemo={handleResetDemo}
@@ -371,7 +485,13 @@ export const App: React.FC = () => {
             )}
           </>
         ) : (
-          holdoutEvaluation && <HoldoutReplayView evaluation={holdoutEvaluation} />
+          holdoutEvaluation && (
+            <HoldoutReplayView
+              evaluation={holdoutEvaluation}
+              mlHoldout={mlOnline ? mlHoldout : null}
+              mlLoading={mlHoldoutLoading}
+            />
+          )
         )}
       </main>
     </div>

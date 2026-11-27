@@ -37,6 +37,12 @@ export const ProductInspector: React.FC<ProductInspectorProps> = ({
         <div className="inspector-badges">
           <span className={`badge badge-${item.status.toLowerCase()}`}>{item.status}</span>
           {item.is_excess && <span className="badge badge-excess">Excess</span>}
+          {f.mlMetadata?.mlRiskClass && (
+            <span className="badge badge-ml" title="scikit-learn RandomForestClassifier risk estimate">
+              ML Risk: {f.mlMetadata.mlRiskClass} (
+              {Math.round((f.mlMetadata.mlRiskConfidence ?? 0) * 100)}%)
+            </span>
+          )}
         </div>
       </div>
 
@@ -111,6 +117,26 @@ export const ProductInspector: React.FC<ProductInspectorProps> = ({
             <span>Events: {f.activeEventNotes.join(', ')}</span>
           )}
         </div>
+
+        {f.mlMetadata && f.mlMetadata.topDrivers.length > 0 && (
+          <div className="ml-drivers-box">
+            <div className="ml-drivers-title">
+              scikit-learn Feature Importances ({f.mlMetadata.trainingSamples} training days)
+            </div>
+            {f.mlMetadata.topDrivers.map((drv) => {
+              const pct = Math.round(drv.importance * 100);
+              return (
+                <div key={drv.label} className="driver-row">
+                  <span className="driver-label">{drv.label}</span>
+                  <div className="driver-bar-track">
+                    <div className="driver-bar-fill" style={{ width: `${Math.max(4, pct)}%` }} />
+                  </div>
+                  <span className="driver-pct">{pct}%</span>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </aside>
   );

@@ -1,11 +1,12 @@
 import {
   ForecastHorizon,
   InventoryRecord,
+  MlProductResult,
   ProductForecast,
   ProductRecommendation,
   ReplenishmentStatus,
 } from '../types/domain';
-import { ForecastContext, forecastProduct } from './forecaster';
+import { applyMlOverlay, ForecastContext, forecastProduct } from './forecaster';
 
 const SERVICE_Z = 1.28; // ~90% service heuristic
 
@@ -121,20 +122,32 @@ function buildRationale(
     actionSentence = ` No replenishment order needed now (net stock covers ${horizon}-day demand + ${safetyBuffer}-unit buffer).`;
   }
 
-  return `${triggerPhrase}${driverSentence}${actionSentence}`;
+  let mlSentence = '';
+  if (forecast.mlMetadata?.engineUsed === 'python_sklearn') {
+    const confPct = Math.round((forecast.mlMetadata.mlRiskConfidence ?? 0) * 100);
+    const driverText = forecast.mlMetadata.topDrivers
+      .slice(0, 2)
+      .map((d) => `${d.label} (${Math.round(d.importance * 100)}%)`)
+      .join(' and ');
+    mlSentence = ` Python ML (Random Forest, ${forecast.mlMetadata.trainingSamples} training days) classifies this SKU as ${forecast.mlMetadata.mlRiskClass} (${confPct}% model confidence)${driverText ? `, driven primarily by ${driverText}` : ''}.`;
+  }
+
+  return `${triggerPhrase}${driverSentence}${actionSentence}${mlSentence}`;
 }
 
 export function evaluateProductReplenishment(
   inv: InventoryRecord,
   horizon: ForecastHorizon,
   globalLeadTimeDays: number,
-  ctx: ForecastContext
+  ctx: ForecastContext,
+  mlResult?: MlProductResult
 ): ProductRecommendation {
   const leadTimeDays = inv.lead_time_days ?? globalLeadTimeDays;
   const leadTimeSource = inv.lead_time_days !== undefined ? 'product' : 'global_default';
   const incomingStock = inv.incoming_stock ?? 0;
 
-  const forecast = forecastProduct(inv.product_id, inv.category, horizon, ctx);
+  const statForecast = forecastProduct(inv.product_id, inv.category, horizon, ctx);
+  const forecast = applyMlOverlay(statForecast, mlResult, horizon);
   const { buffer: safetyBuffer, rule: safetyBufferRule } = computeSafetyBuffer(forecast, leadTimeDays);
 
   const netStock = inv.current_stock + incomingStock;

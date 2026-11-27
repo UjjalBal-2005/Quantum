@@ -1,11 +1,17 @@
 import React from 'react';
-import { HoldoutEvaluationResult } from '../types/domain';
+import { HoldoutEvaluationResult, MlHoldoutEvalResponse } from '../types/domain';
 
 interface HoldoutReplayViewProps {
   evaluation: HoldoutEvaluationResult;
+  mlHoldout: MlHoldoutEvalResponse | null;
+  mlLoading: boolean;
 }
 
-export const HoldoutReplayView: React.FC<HoldoutReplayViewProps> = ({ evaluation }) => {
+export const HoldoutReplayView: React.FC<HoldoutReplayViewProps> = ({
+  evaluation,
+  mlHoldout,
+  mlLoading,
+}) => {
   if (evaluation.productsEvaluated === 0) {
     return (
       <div className="panel-card">
@@ -14,39 +20,60 @@ export const HoldoutReplayView: React.FC<HoldoutReplayViewProps> = ({ evaluation
     );
   }
 
+  const mlByPid = new Map(mlHoldout?.perProduct.map((p) => [p.productId, p]) ?? []);
+
   return (
     <section className="holdout-section">
       <div className="sim-disclosure-banner">
-        <strong>Simulated Assumptions &amp; Zero-Leakage Notice ({evaluation.startDate} to {evaluation.endDate}):</strong>
+        <strong>
+          Simulated Assumptions &amp; Zero-Leakage Notice ({evaluation.startDate} to{' '}
+          {evaluation.endDate}):
+        </strong>
         <ul>
           {evaluation.assumptions.map((a, idx) => (
             <li key={idx}>{a}</li>
+          ))}
+          {mlHoldout?.assumptions.map((a, idx) => (
+            <li key={`ml-${idx}`}>{a}</li>
           ))}
         </ul>
       </div>
 
       <div className="kpi-strip">
         <div className="kpi-card">
-          <span className="kpi-label">Forecast MAE (Smart vs Simple Avg)</span>
+          <span className="kpi-label">
+            Forecast MAE ({mlHoldout ? 'Avg / Stat / Python ML' : 'Stat vs Simple Avg'})
+          </span>
           <strong className="kpi-value">
-            {evaluation.portfolioSmartMae.toFixed(2)} vs {evaluation.portfolioBaselineMae.toFixed(2)}
+            {mlHoldout
+              ? `${evaluation.portfolioBaselineMae.toFixed(2)} / ${evaluation.portfolioSmartMae.toFixed(2)} / ${mlHoldout.portfolioMlMae.toFixed(2)}`
+              : `${evaluation.portfolioSmartMae.toFixed(2)} vs ${evaluation.portfolioBaselineMae.toFixed(2)}`}
           </strong>
-          <small className="kpi-sub">Lower MAE = closer to actual daily sales</small>
+          <small className="kpi-sub">
+            {mlLoading ? 'Running Python ML holdout...' : 'Lower MAE = closer to actual daily sales'}
+          </small>
         </div>
 
         <div className="kpi-card">
-          <span className="kpi-label">Portfolio WMAPE (Smart vs Avg)</span>
+          <span className="kpi-label">
+            Portfolio WMAPE ({mlHoldout ? 'Avg / Stat / ML' : 'Stat vs Avg'})
+          </span>
           <strong className="kpi-value">
-            {evaluation.portfolioSmartWmape.toFixed(1)}% vs{' '}
-            {evaluation.portfolioBaselineWmape.toFixed(1)}%
+            {mlHoldout
+              ? `${evaluation.portfolioBaselineWmape.toFixed(1)}% / ${evaluation.portfolioSmartWmape.toFixed(1)}% / ${mlHoldout.portfolioMlWmape.toFixed(1)}%`
+              : `${evaluation.portfolioSmartWmape.toFixed(1)}% vs ${evaluation.portfolioBaselineWmape.toFixed(1)}%`}
           </strong>
           <small className="kpi-sub">Volume-weighted percentage error</small>
         </div>
 
         <div className="kpi-card">
-          <span className="kpi-label">Simulated Stockout Days (Smart vs Static R)</span>
+          <span className="kpi-label">
+            Simulated Stockout Days ({mlHoldout ? 'Static / Stat / ML' : 'Stat vs Static R'})
+          </span>
           <strong className="kpi-value">
-            {evaluation.totalSmartStockoutDays}d vs {evaluation.totalStaticStockoutDays}d
+            {mlHoldout
+              ? `${evaluation.totalStaticStockoutDays}d / ${evaluation.totalSmartStockoutDays}d / ${mlHoldout.totalMlStockoutDays}d`
+              : `${evaluation.totalSmartStockoutDays}d vs ${evaluation.totalStaticStockoutDays}d`}
           </strong>
           <small className="kpi-sub">Simulated across {evaluation.productsEvaluated} SKUs</small>
         </div>
@@ -54,9 +81,13 @@ export const HoldoutReplayView: React.FC<HoldoutReplayViewProps> = ({ evaluation
         <div className="kpi-card">
           <span className="kpi-label">Simulated Ending Leftover Units</span>
           <strong className="kpi-value">
-            {evaluation.totalSmartEndingStock} vs {evaluation.totalStaticEndingStock}
+            {mlHoldout
+              ? `${evaluation.totalStaticEndingStock} / ${evaluation.totalSmartEndingStock} / ${mlHoldout.totalMlEndingStock}`
+              : `${evaluation.totalSmartEndingStock} vs ${evaluation.totalStaticEndingStock}`}
           </strong>
-          <small className="kpi-sub">Smart Policy vs Static Reorder-Level</small>
+          <small className="kpi-sub">
+            {mlHoldout ? 'Static R / Browser Stat / Python ML' : 'Smart Policy vs Static Reorder-Level'}
+          </small>
         </div>
       </div>
 
@@ -70,40 +101,51 @@ export const HoldoutReplayView: React.FC<HoldoutReplayViewProps> = ({ evaluation
               <tr>
                 <th>Product</th>
                 <th>28d Actual</th>
-                <th>Smart MAE</th>
+                <th>Stat MAE</th>
                 <th>Avg MAE</th>
-                <th>Smart WMAPE</th>
-                <th>Avg WMAPE</th>
-                <th>Sim. Stockouts (Smart / Static)</th>
-                <th>Sim. Ending Stock (Smart / Static)</th>
+                {mlHoldout && <th>Python ML MAE</th>}
+                <th>Stat WMAPE</th>
+                {mlHoldout && <th>ML WMAPE</th>}
+                <th>Sim. Stockouts (Stat / Static{mlHoldout ? ' / ML' : ''})</th>
+                <th>Sim. Ending Stock (Stat / Static{mlHoldout ? ' / ML' : ''})</th>
               </tr>
             </thead>
             <tbody>
-              {evaluation.perProduct.map((row) => (
-                <tr key={row.product_id}>
-                  <td>
-                    <div className="prod-cell">
-                      <strong>{row.product}</strong>
-                      <span>
-                        {row.product_id} • {row.category}
-                      </span>
-                    </div>
-                  </td>
-                  <td>{row.actualTotal}</td>
-                  <td className={row.smartMae <= row.baselineMae ? 'good-num' : ''}>
-                    {row.smartMae.toFixed(2)}
-                  </td>
-                  <td>{row.baselineMae.toFixed(2)}</td>
-                  <td>{row.smartWmape.toFixed(1)}%</td>
-                  <td>{row.baselineWmape.toFixed(1)}%</td>
-                  <td>
-                    <strong>{row.smartStockoutDays}d</strong> / {row.staticStockoutDays}d
-                  </td>
-                  <td>
-                    <strong>{row.smartEndingStock}</strong> / {row.staticEndingStock}
-                  </td>
-                </tr>
-              ))}
+              {evaluation.perProduct.map((row) => {
+                const mlRow = mlByPid.get(row.product_id);
+                return (
+                  <tr key={row.product_id}>
+                    <td>
+                      <div className="prod-cell">
+                        <strong>{row.product}</strong>
+                        <span>
+                          {row.product_id} • {row.category}
+                        </span>
+                      </div>
+                    </td>
+                    <td>{row.actualTotal}</td>
+                    <td className={row.smartMae <= row.baselineMae ? 'good-num' : ''}>
+                      {row.smartMae.toFixed(2)}
+                    </td>
+                    <td>{row.baselineMae.toFixed(2)}</td>
+                    {mlHoldout && (
+                      <td className={mlRow && mlRow.mlMae <= row.baselineMae ? 'good-num' : ''}>
+                        {mlRow ? mlRow.mlMae.toFixed(2) : 'Fallback'}
+                      </td>
+                    )}
+                    <td>{row.smartWmape.toFixed(1)}%</td>
+                    {mlHoldout && <td>{mlRow ? `${mlRow.mlWmape.toFixed(1)}%` : '—'}</td>}
+                    <td>
+                      <strong>{row.smartStockoutDays}d</strong> / {row.staticStockoutDays}d
+                      {mlHoldout && ` / ${mlRow ? `${mlRow.mlStockoutDays}d` : '—'}`}
+                    </td>
+                    <td>
+                      <strong>{row.smartEndingStock}</strong> / {row.staticEndingStock}
+                      {mlHoldout && ` / ${mlRow ? mlRow.mlEndingStock : '—'}`}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

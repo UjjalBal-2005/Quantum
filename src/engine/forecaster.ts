@@ -3,6 +3,7 @@ import {
   DailyForecastPoint,
   FallbackLevel,
   ForecastHorizon,
+  MlProductResult,
   ProductForecast,
   SalesRecord,
 } from '../types/domain';
@@ -363,4 +364,53 @@ export function getLatestSalesWindowDates(sales: SalesRecord[], days: number): s
     dates.push(addDays(start, i));
   }
   return dates;
+}
+
+/**
+ * Merges a Python scikit-learn forecast result onto a statistical baseline forecast.
+ * Falls back cleanly to statistical numbers when engineUsed === 'statistical_fallback'.
+ */
+export function applyMlOverlay(
+  statForecast: ProductForecast,
+  mlResult: MlProductResult | undefined,
+  horizon: ForecastHorizon
+): ProductForecast {
+  if (!mlResult) return statForecast;
+
+  const mlMetadata = {
+    engineUsed: mlResult.engineUsed,
+    mlRiskClass: mlResult.mlRiskClass,
+    mlRiskConfidence: mlResult.mlRiskConfidence,
+    trainingSamples: mlResult.trainingSamples,
+    topDrivers: mlResult.topDrivers.map((d) => ({ label: d.label, importance: d.importance })),
+  };
+
+  if (mlResult.engineUsed !== 'python_sklearn' || mlResult.dailyForecast.length === 0) {
+    return {
+      ...statForecast,
+      mlMetadata,
+    };
+  }
+
+  const dailyPoints: DailyForecastPoint[] = mlResult.dailyForecast.slice(0, horizon).map((pt, idx) => {
+    const statPt = statForecast.dailyPoints[idx];
+    return {
+      date: pt.date,
+      baseline: pt.predictedUnits,
+      lift: 1.0,
+      trend: 1.0,
+      predicted: pt.predictedUnits,
+      eventName: statPt?.eventName,
+      isEvent: statPt?.isEvent ?? false,
+      fallbackUsed: statForecast.fallbackLevel,
+    };
+  });
+
+  return {
+    ...statForecast,
+    dailyPoints,
+    horizonDemand: mlResult.horizonDemand,
+    demand14d: mlResult.demand14d,
+    mlMetadata,
+  };
 }
