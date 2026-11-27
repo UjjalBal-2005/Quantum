@@ -1,325 +1,105 @@
-import {
-  CalendarRow,
-  DatasetLoadResult,
-  ExcludedProduct,
-  InventoryRow,
-  ParseWarning,
-  SalesRow,
-} from '../types/domain';
-import { isWeekendDate, parseIsoDate } from './dateUtils';
+import type { CalendarRecord, DataIssue, InventoryRecord, ParsedFile, SalesRecord } from "../types/domain";
 
-const SALES_ALIASES: Record<string, string> = {
-  sku: 'product_id',
-  item_id: 'product_id',
-  product_name: 'product',
-  item_name: 'product',
-  quantity: 'quantity_sold',
-  units_sold: 'quantity_sold',
-  qty: 'quantity_sold',
-  promo_flag: 'is_promotion',
-  price: 'selling_price',
+type Schema<T> = {
+  aliases: Record<string, string[]>;
+  required: string[];
+  parse: (row: Record<string, string>, rowNumber: number, file: string, issues: DataIssue[]) => T | undefined;
 };
 
-const INVENTORY_ALIASES: Record<string, string> = {
-  sku: 'product_id',
-  item_id: 'product_id',
-  product_name: 'product',
-  item_name: 'product',
-  on_hand: 'current_stock',
-  on_hand_qty: 'current_stock',
-  stock_on_hand: 'current_stock',
-  incoming_qty: 'incoming_stock',
-  on_order: 'incoming_stock',
-  lead_time: 'lead_time_days',
-  shelf_life: 'shelf_life_days',
+const norm = (value: string) => value.trim().toLowerCase().replace(/[\s-]+/g, "_");
+const aliases: Record<string, string[]> = {
+  product_id: ["product_id", "sku", "item_id", "id"], product: ["product", "product_name", "item", "item_name"],
+  category: ["category", "department", "product_category"], date: ["date", "sales_date", "day"],
+  quantity_sold: ["quantity_sold", "quantity", "units_sold", "qty", "units"],
+  is_promotion: ["is_promotion", "promo_flag", "promotion", "on_promotion"],
+  current_stock: ["current_stock", "on_hand", "on_hand_qty", "stock", "stock_on_hand"],
+  reorder_level: ["reorder_level", "reorder_point", "minimum_stock", "min_stock"],
+  quantity_received: ["quantity_received", "received_qty", "qty_received"],
+  stock_availability: ["stock_availability", "availability", "stock_status"],
+  incoming_stock: ["incoming_stock", "incoming_qty", "on_order", "pending_stock"],
+  lead_time_days: ["lead_time_days", "lead_time", "supplier_lead_days"], shelf_life_days: ["shelf_life_days", "shelf_life"],
+  selling_price: ["selling_price", "price", "unit_price"], promotion_name: ["promotion_name", "promo_name"],
+  day_of_week: ["day_of_week", "weekday"], is_weekend: ["is_weekend", "weekend"], holiday: ["holiday", "event_type"],
+  festival: ["festival"], promotion_event: ["promotion_event", "promo_event"], event_name: ["event_name", "name"],
 };
 
-const CALENDAR_ALIASES: Record<string, string> = {
-  event_type: 'event_type',
-  promo_event: 'promotion_event',
-  is_holiday: 'holiday',
-  is_festival: 'festival',
+function parseCsv(text: string): { headers: string[]; rows: string[][] } {
+  const rows: string[][] = []; let row: string[] = []; let cell = ""; let quoted = false;
+  const input = text.replace(/^\uFEFF/, "");
+  for (let i = 0; i < input.length; i++) {
+    const c = input[i];
+    if (quoted) { if (c === '"' && input[i + 1] === '"') { cell += '"'; i++; } else if (c === '"') quoted = false; else cell += c; }
+    else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && input[i + 1] === "\n") i++; row.push(cell); if (row.some(v => v.trim())) rows.push(row); row = []; cell = ""; }
+    else cell += c;
+  }
+  row.push(cell); if (row.some(v => v.trim())) rows.push(row);
+  if (!rows.length) return { headers: [], rows: [] };
+  return { headers: rows[0].map(norm), rows: rows.slice(1) };
+}
+
+function numberField(row: Record<string, string>, key: string, rowNumber: number, file: string, issues: DataIssue[], optional = false): number | undefined {
+  const raw = row[key]?.trim();
+  if ((raw === undefined || raw === "") && optional) return undefined;
+  const n = Number(raw);
+  if (!Number.isFinite(n) || n < 0) { issues.push({ file, row: rowNumber, severity: "error", message: `“${key}” must be a non-negative number${raw ? ` (received “${raw}”)` : ""}.` }); return undefined; }
+  return n;
+}
+
+const schemas: Record<string, Schema<any>> = {
+  sales: { aliases, required: ["date", "product_id", "product", "category", "quantity_sold"], parse: (r, n, f, e) => {
+    if (!validDate(r.date)) { e.push({ file: f, row: n, severity: "error", message: "“date” must be a valid YYYY-MM-DD date." }); return; }
+    const q = numberField(r, "quantity_sold", n, f, e); if (q === undefined) return;
+    const price = r.selling_price ? numberField(r, "selling_price", n, f, e, true) : undefined;
+    return { date: r.date, product_id: r.product_id, product: r.product, category: r.category, quantity_sold: q, ...(price !== undefined && { selling_price: price }), ...(r.promotion_name && { promotion_name: r.promotion_name }), ...(r.is_promotion !== undefined && { is_promotion: bool(r.is_promotion) }), ...(r.stock_availability && { stock_availability: r.stock_availability }) } as SalesRecord;
+  } },
+  inventory: { aliases, required: ["product_id", "product", "category", "current_stock", "reorder_level", "quantity_received", "stock_availability"], parse: (r, n, f, e) => {
+    const keys = ["current_stock", "reorder_level", "quantity_received"]; const values = keys.map(k => numberField(r, k, n, f, e)); if (values.some(v => v === undefined)) return;
+    const optional: Record<string, number | undefined> = {}; for (const k of ["incoming_stock", "lead_time_days", "shelf_life_days"]) { const v = r[k] ? numberField(r, k, n, f, e, true) : undefined; if (v !== undefined) optional[k] = v; }
+    return { product_id: r.product_id, product: r.product, category: r.category, current_stock: values[0]!, reorder_level: values[1]!, quantity_received: values[2]!, stock_availability: r.stock_availability, ...optional } as InventoryRecord;
+  } },
+  calendar: { aliases, required: ["date"], parse: (r, n, f, e) => {
+    if (!validDate(r.date)) { e.push({ file: f, row: n, severity: "error", message: "“date” must be a valid YYYY-MM-DD date." }); return; }
+    return { date: r.date, ...(r.day_of_week && { day_of_week: r.day_of_week }), ...(r.is_weekend !== undefined && { is_weekend: bool(r.is_weekend) }), ...(r.holiday && { holiday: r.holiday }), ...(r.festival && { festival: r.festival }), ...(r.promotion_event && { promotion_event: r.promotion_event }), ...(r.event_name && { event_name: r.event_name }) } as CalendarRecord;
+  } },
 };
 
-function parseCsvMatrix(text: string): string[][] {
-  const rows: string[][] = [];
-  let row: string[] = [];
-  let cell = '';
-  let inQuotes = false;
-
-  const clean = text.replace(/^\uFEFF/, '');
-  for (let i = 0; i < clean.length; i++) {
-    const ch = clean[i];
-    if (inQuotes) {
-      if (ch === '"') {
-        if (clean[i + 1] === '"') {
-          cell += '"';
-          i++;
-        } else {
-          inQuotes = false;
-        }
-      } else {
-        cell += ch;
-      }
-    } else if (ch === '"') {
-      inQuotes = true;
-    } else if (ch === ',') {
-      row.push(cell.trim());
-      cell = '';
-    } else if (ch === '\r' || ch === '\n') {
-      if (ch === '\r' && clean[i + 1] === '\n') i++;
-      row.push(cell.trim());
-      if (row.some((v) => v !== '')) rows.push(row);
-      row = [];
-      cell = '';
-    } else {
-      cell += ch;
-    }
-  }
-  row.push(cell.trim());
-  if (row.some((v) => v !== '')) rows.push(row);
-  return rows;
+function bool(value: string): boolean { return ["1", "true", "yes", "y", "promo", "promotion"].includes(value.trim().toLowerCase()); }
+function validDate(value?: string): boolean {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const parsed = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
 }
 
-function normalizeHeader(raw: string, aliases: Record<string, string>): string {
-  const key = raw.trim().toLowerCase().replace(/\s+/g, '_');
-  return aliases[key] ?? key;
+export function parseCsvFile<K extends keyof typeof schemas>(text: string, kind: K, filename = `${kind}.csv`): ParsedFile<K extends "sales" ? SalesRecord : K extends "inventory" ? InventoryRecord : CalendarRecord> {
+  const issues: DataIssue[] = []; const { headers, rows } = parseCsv(text); const schema = schemas[kind];
+  if (!headers.length) return { records: [], issues: [{ file: filename, severity: "error", message: "CSV is empty or has no header row." }] } as any;
+  const mapped: Record<string, number> = {};
+  for (const canonical of Object.keys(schema.aliases)) { const index = headers.findIndex(h => schema.aliases[canonical].map(norm).includes(h)); if (index >= 0) mapped[canonical] = index; }
+  const missing = schema.required.filter(k => mapped[k] === undefined);
+  if (missing.length) issues.push({ file: filename, severity: "error", message: `Missing required column${missing.length > 1 ? "s" : ""}: ${missing.join(", ")}. Recognized headers: ${headers.join(", ") || "none"}.` });
+  if (missing.length) return { records: [], issues } as any;
+  const records: unknown[] = [];
+  rows.forEach((cells, index) => {
+    const raw: Record<string, string> = {}; for (const [key, col] of Object.entries(mapped)) raw[key] = cells[col] ?? "";
+    const eventTypeColumn = headers.indexOf("event_type");
+    if (kind === "calendar" && eventTypeColumn >= 0) {
+      const event = (cells[eventTypeColumn] ?? "").trim(); const lower = event.toLowerCase();
+      if (event && lower.includes("promo")) raw.promotion_event = event;
+      else if (event && lower.includes("festival")) raw.festival = event;
+      else if (event && !raw.holiday) raw.holiday = event;
+    }
+    for (const key of schema.required) if (!raw[key]?.trim()) issues.push({ file: filename, row: index + 2, severity: "error", message: `Required value “${key}” is blank.` });
+    if (schema.required.some(k => !raw[k]?.trim())) return;
+    const record = schema.parse(raw, index + 2, filename, issues); if (record) records.push(record);
+  });
+  return { records, issues } as any;
 }
 
-function parseBool(val: string | undefined): boolean {
-  if (!val) return false;
-  const v = val.trim().toLowerCase();
-  return v === '1' || v === 'true' || v === 'yes' || v === 'y';
-}
-
-function parseOptionalNum(val: string | undefined): number | undefined {
-  if (val === undefined || val.trim() === '') return undefined;
-  const n = Number(val);
-  return Number.isFinite(n) ? n : undefined;
-}
-
-function normalizeDateString(raw: string): string | null {
-  const trimmed = raw.trim();
-  if (parseIsoDate(trimmed)) return trimmed;
-  const parsed = new Date(trimmed);
-  if (Number.isNaN(parsed.getTime())) return null;
-  const y = parsed.getUTCFullYear();
-  const m = String(parsed.getUTCMonth() + 1).padStart(2, '0');
-  const d = String(parsed.getUTCDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
-}
-
-export function parseCsvDatasets(
-  salesCsv: string,
-  inventoryCsv: string,
-  calendarCsv: string,
-  sourceLabel: string
-): DatasetLoadResult {
-  const warnings: ParseWarning[] = [];
-  const errors: string[] = [];
-  const excludedProducts: ExcludedProduct[] = [];
-
-  // 1. Parse Sales
-  const salesMatrix = parseCsvMatrix(salesCsv);
-  const sales: SalesRow[] = [];
-  if (salesMatrix.length < 2) {
-    errors.push('Sales CSV is empty or missing data rows.');
-  } else {
-    const headers = salesMatrix[0].map((h) => normalizeHeader(h, SALES_ALIASES));
-    const req = ['date', 'product_id', 'product', 'category', 'quantity_sold'];
-    const missing = req.filter((c) => !headers.includes(c));
-    if (missing.length > 0) {
-      errors.push(`Sales CSV missing required columns: ${missing.join(', ')}`);
-    } else {
-      const idx = (col: string) => headers.indexOf(col);
-      for (let r = 1; r < salesMatrix.length; r++) {
-        const line = salesMatrix[r];
-        const rawDate = line[idx('date')] ?? '';
-        const date = normalizeDateString(rawDate);
-        const product_id = (line[idx('product_id')] ?? '').trim();
-        const product = (line[idx('product')] ?? '').trim();
-        const category = (line[idx('category')] ?? '').trim() || 'Uncategorized';
-        const qty = Number(line[idx('quantity_sold')]);
-
-        if (!date || !product_id || !Number.isFinite(qty) || qty < 0) {
-          warnings.push({
-            file: 'sales',
-            row: r + 1,
-            message: `Skipped invalid sales row (date="${rawDate}", product_id="${product_id}", qty="${line[idx('quantity_sold')] ?? ''}").`,
-          });
-          continue;
-        }
-
-        sales.push({
-          date,
-          product_id,
-          product: product || product_id,
-          category,
-          quantity_sold: qty,
-          selling_price: idx('selling_price') >= 0 ? parseOptionalNum(line[idx('selling_price')]) : undefined,
-          promotion_name: idx('promotion_name') >= 0 ? line[idx('promotion_name')] || undefined : undefined,
-          is_promotion: idx('is_promotion') >= 0 ? parseBool(line[idx('is_promotion')]) : false,
-        });
-      }
-    }
-  }
-
-  // 2. Parse Inventory
-  const invMatrix = parseCsvMatrix(inventoryCsv);
-  const inventory: InventoryRow[] = [];
-  if (invMatrix.length < 2) {
-    errors.push('Inventory CSV is empty or missing data rows.');
-  } else {
-    const headers = invMatrix[0].map((h) => normalizeHeader(h, INVENTORY_ALIASES));
-    const req = [
-      'product_id',
-      'product',
-      'category',
-      'current_stock',
-      'reorder_level',
-      'quantity_received',
-      'stock_availability',
-    ];
-    const missing = req.filter((c) => !headers.includes(c));
-    if (missing.length > 0) {
-      errors.push(`Inventory CSV missing required columns: ${missing.join(', ')}`);
-    } else {
-      const idx = (col: string) => headers.indexOf(col);
-      const seenIds = new Set<string>();
-      for (let r = 1; r < invMatrix.length; r++) {
-        const line = invMatrix[r];
-        const product_id = (line[idx('product_id')] ?? '').trim();
-        const product = (line[idx('product')] ?? '').trim();
-        const category = (line[idx('category')] ?? '').trim() || 'Uncategorized';
-        const current_stock = Number(line[idx('current_stock')]);
-        const reorder_level = Number(line[idx('reorder_level')]);
-        const quantity_received = parseOptionalNum(line[idx('quantity_received')]) ?? 0;
-        const stock_availability = (line[idx('stock_availability')] ?? 'in_stock').trim().toLowerCase();
-        const incoming_stock = idx('incoming_stock') >= 0 ? parseOptionalNum(line[idx('incoming_stock')]) ?? 0 : 0;
-        const lead_time_days = idx('lead_time_days') >= 0 ? parseOptionalNum(line[idx('lead_time_days')]) : undefined;
-        const shelf_life_days = idx('shelf_life_days') >= 0 ? parseOptionalNum(line[idx('shelf_life_days')]) : undefined;
-
-        if (!product_id || !Number.isFinite(current_stock) || current_stock < 0 || !Number.isFinite(reorder_level)) {
-          warnings.push({
-            file: 'inventory',
-            row: r + 1,
-            message: `Skipped invalid inventory row (product_id="${product_id}").`,
-          });
-          continue;
-        }
-
-        if (seenIds.has(product_id)) {
-          warnings.push({
-            file: 'inventory',
-            row: r + 1,
-            message: `Duplicate product_id "${product_id}" in inventory CSV; keeping first row.`,
-          });
-          continue;
-        }
-        seenIds.add(product_id);
-
-        inventory.push({
-          product_id,
-          product: product || product_id,
-          category,
-          current_stock,
-          reorder_level: Math.max(0, reorder_level),
-          quantity_received: Math.max(0, quantity_received),
-          stock_availability,
-          incoming_stock: Math.max(0, incoming_stock),
-          lead_time_days: lead_time_days !== undefined && lead_time_days > 0 ? Math.round(lead_time_days) : undefined,
-          shelf_life_days: shelf_life_days !== undefined && shelf_life_days > 0 ? Math.round(shelf_life_days) : undefined,
-        });
-      }
-    }
-  }
-
-  // 3. Parse Calendar
-  const calMatrix = parseCsvMatrix(calendarCsv);
-  const calendar: CalendarRow[] = [];
-  if (calMatrix.length < 2) {
-    warnings.push({
-      file: 'calendar',
-      message: 'Calendar CSV is empty; proceeding with normal weekday/weekend assumptions.',
-    });
-  } else {
-    const headers = calMatrix[0].map((h) => normalizeHeader(h, CALENDAR_ALIASES));
-    if (!headers.includes('date')) {
-      errors.push('Calendar CSV missing required column: date');
-    } else {
-      const idx = (col: string) => headers.indexOf(col);
-      for (let r = 1; r < calMatrix.length; r++) {
-        const line = calMatrix[r];
-        const rawDate = line[idx('date')] ?? '';
-        const date = normalizeDateString(rawDate);
-        if (!date) {
-          warnings.push({
-            file: 'calendar',
-            row: r + 1,
-            message: `Skipped calendar row with invalid date "${rawDate}".`,
-          });
-          continue;
-        }
-
-        const eventType = idx('event_type') >= 0 ? (line[idx('event_type')] ?? '').trim().toLowerCase() : '';
-        const holiday = (idx('holiday') >= 0 && parseBool(line[idx('holiday')])) || eventType === 'holiday';
-        const festival = (idx('festival') >= 0 && parseBool(line[idx('festival')])) || eventType === 'festival';
-        const promotion_event =
-          (idx('promotion_event') >= 0 && parseBool(line[idx('promotion_event')])) ||
-          eventType === 'promotion' ||
-          eventType === 'promotion_event';
-
-        calendar.push({
-          date,
-          day_of_week: idx('day_of_week') >= 0 ? line[idx('day_of_week')] || undefined : undefined,
-          is_weekend: idx('is_weekend') >= 0 ? parseBool(line[idx('is_weekend')]) : isWeekendDate(date),
-          holiday,
-          festival,
-          promotion_event,
-          event_name: idx('event_name') >= 0 ? line[idx('event_name')] || undefined : undefined,
-        });
-      }
-    }
-  }
-
-  // 4. Cross-file product linkage checks
-  const invIds = new Set(inventory.map((i) => i.product_id));
-  const salesByProduct = new Map<string, SalesRow>();
-  for (const s of sales) {
-    if (!salesByProduct.has(s.product_id)) salesByProduct.set(s.product_id, s);
-  }
-
-  for (const [pid, sample] of salesByProduct.entries()) {
-    if (!invIds.has(pid)) {
-      excludedProducts.push({
-        product_id: pid,
-        product: sample.product,
-        source: 'sales',
-        reason: 'MISSING_INVENTORY_RECORD',
-        details: 'Present in Sales CSV but missing from Inventory CSV; excluded from replenishment queue.',
-      });
-    }
-  }
-
-  for (const inv of inventory) {
-    if (!salesByProduct.has(inv.product_id)) {
-      excludedProducts.push({
-        product_id: inv.product_id,
-        product: inv.product,
-        source: 'inventory',
-        reason: 'NO_SALES_HISTORY',
-        details: 'Present in Inventory CSV with 0 sales rows; fallback category/store velocity will be used if retained.',
-      });
-    }
-  }
-
-  return {
-    sales,
-    inventory,
-    calendar,
-    excludedProducts,
-    warnings,
-    errors,
-    sourceLabel,
-  };
+export function validateLinks(sales: SalesRecord[], inventory: InventoryRecord[]): DataIssue[] {
+  const issues: DataIssue[] = []; const salesIds = new Set(sales.map(x => x.product_id)); const inventoryIds = new Set(inventory.map(x => x.product_id));
+  for (const id of inventoryIds) if (!salesIds.has(id)) issues.push({ file: "sales.csv", severity: "warning", message: `Inventory product “${id}” has no matching sales history and should be excluded or explicitly assigned a fallback.` });
+  for (const id of salesIds) if (!inventoryIds.has(id)) issues.push({ file: "inventory.csv", severity: "warning", message: `Sales product “${id}” has no inventory record; it cannot receive a safe order recommendation.` });
+  return issues;
 }

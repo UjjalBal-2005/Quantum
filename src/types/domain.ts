@@ -1,17 +1,19 @@
-export type ForecastHorizon = 7 | 14 | 30;
+// Agent 1: Canonical CSV & Dataset Contracts
+export type CsvRow = Record<string, string>;
 
-export interface SalesRow {
-  date: string; // YYYY-MM-DD
+export interface SalesRecord {
+  date: string;
   product_id: string;
   product: string;
   category: string;
   quantity_sold: number;
   selling_price?: number;
   promotion_name?: string;
-  is_promotion: boolean;
+  is_promotion?: boolean;
+  stock_availability?: string;
 }
 
-export interface InventoryRow {
+export interface InventoryRecord {
   product_id: string;
   product: string;
   category: string;
@@ -19,44 +21,43 @@ export interface InventoryRow {
   reorder_level: number;
   quantity_received: number;
   stock_availability: string;
-  incoming_stock: number;
+  incoming_stock?: number;
   lead_time_days?: number;
   shelf_life_days?: number;
 }
 
-export interface CalendarRow {
-  date: string; // YYYY-MM-DD
+export interface CalendarRecord {
+  date: string;
   day_of_week?: string;
-  is_weekend: boolean;
-  holiday: boolean;
-  festival: boolean;
-  promotion_event: boolean;
+  is_weekend?: boolean;
+  holiday?: string;
+  festival?: string;
+  promotion_event?: string;
   event_name?: string;
 }
 
-export interface ExcludedProduct {
-  product_id: string;
-  product?: string;
-  source: 'sales' | 'inventory';
-  reason: string;
-  details: string;
-}
-
-export interface ParseWarning {
-  file: 'sales' | 'inventory' | 'calendar';
+export interface DataIssue {
+  file: string;
   row?: number;
+  severity: 'error' | 'warning';
   message: string;
 }
 
-export interface DatasetLoadResult {
-  sales: SalesRow[];
-  inventory: InventoryRow[];
-  calendar: CalendarRow[];
-  excludedProducts: ExcludedProduct[];
-  warnings: ParseWarning[];
-  errors: string[];
-  sourceLabel: string;
+export interface ParsedFile<T> {
+  records: T[];
+  issues: DataIssue[];
 }
+
+export interface RetailDataset {
+  sales: SalesRecord[];
+  inventory: InventoryRecord[];
+  calendar: CalendarRecord[];
+}
+
+export type ImportKind = keyof RetailDataset;
+
+// Agent 2, 3, 4: Forecasting, Replenishment & Holdout Contracts
+export type ForecastHorizon = 7 | 14 | 30;
 
 export type FallbackLevel = 'weekday' | 'product_avg' | 'category_avg' | 'store_median';
 

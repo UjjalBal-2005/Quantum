@@ -1,11 +1,11 @@
 import React from 'react';
-import { CalendarRow, ProductRecommendation, SalesRow } from '../types/domain';
+import { CalendarRecord, ProductRecommendation, SalesRecord } from '../types/domain';
 import { ProductChart } from './ProductChart';
 
 interface ProductInspectorProps {
   item: ProductRecommendation | null;
-  productHistory: SalesRow[];
-  calendarByDate: Map<string, CalendarRow>;
+  productHistory: SalesRecord[];
+  calendarByDate: Map<string, CalendarRecord>;
 }
 
 export const ProductInspector: React.FC<ProductInspectorProps> = ({

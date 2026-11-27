@@ -1,18 +1,18 @@
 import {
-  CalendarRow,
+  CalendarRecord,
   HoldoutEvaluationResult,
   HoldoutProductResult,
-  InventoryRow,
-  SalesRow,
+  InventoryRecord,
+  SalesRecord,
 } from '../types/domain';
 import { addDays } from '../utils/dateUtils';
 import { forecastProduct, prepareForecastContext } from './forecaster';
 import { computeSafetyBuffer } from './replenishment';
 
 export function runHoldoutEvaluation(
-  sales: SalesRow[],
-  inventory: InventoryRow[],
-  calendar: CalendarRow[],
+  sales: SalesRecord[],
+  inventory: InventoryRecord[],
+  calendar: CalendarRecord[],
   globalLeadTimeDays: number
 ): HoldoutEvaluationResult {
   const holdoutDays = 28;

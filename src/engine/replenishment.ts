@@ -1,6 +1,6 @@
 import {
   ForecastHorizon,
-  InventoryRow,
+  InventoryRecord,
   ProductForecast,
   ProductRecommendation,
   ReplenishmentStatus,
@@ -58,7 +58,7 @@ export function computeDaysOfCover(stock: number, forecast: ProductForecast): nu
 }
 
 function buildRationale(
-  inv: InventoryRow,
+  inv: InventoryRecord,
   leadTime: number,
   horizon: ForecastHorizon,
   forecast: ProductForecast,
@@ -69,8 +69,9 @@ function buildRationale(
   isExcess: boolean,
   spoilageRisk: boolean
 ): string {
+  const incomingStock = inv.incoming_stock ?? 0;
   const coverStr = daysCover >= 365 ? '365+' : daysCover.toFixed(1);
-  const stockPhrase = `${inv.current_stock} units on hand (${inv.incoming_stock} incoming) provide ${coverStr} days of cover`;
+  const stockPhrase = `${inv.current_stock} units on hand (${incomingStock} incoming) provide ${coverStr} days of cover`;
 
   let triggerPhrase = '';
   if (status === 'Urgent') {
@@ -124,18 +125,19 @@ function buildRationale(
 }
 
 export function evaluateProductReplenishment(
-  inv: InventoryRow,
+  inv: InventoryRecord,
   horizon: ForecastHorizon,
   globalLeadTimeDays: number,
   ctx: ForecastContext
 ): ProductRecommendation {
   const leadTimeDays = inv.lead_time_days ?? globalLeadTimeDays;
   const leadTimeSource = inv.lead_time_days !== undefined ? 'product' : 'global_default';
+  const incomingStock = inv.incoming_stock ?? 0;
 
   const forecast = forecastProduct(inv.product_id, inv.category, horizon, ctx);
   const { buffer: safetyBuffer, rule: safetyBufferRule } = computeSafetyBuffer(forecast, leadTimeDays);
 
-  const netStock = inv.current_stock + inv.incoming_stock;
+  const netStock = inv.current_stock + incomingStock;
   const suggestedOrderQty = Math.max(0, Math.ceil(forecast.horizonDemand + safetyBuffer - netStock));
 
   const daysOfCover = computeDaysOfCover(inv.current_stock, forecast);
@@ -170,7 +172,7 @@ export function evaluateProductReplenishment(
     product: inv.product,
     category: inv.category,
     current_stock: inv.current_stock,
-    incoming_stock: inv.incoming_stock,
+    incoming_stock: incomingStock,
     net_stock: netStock,
     reorder_level: inv.reorder_level,
     lead_time_days: leadTimeDays,

@@ -1,10 +1,10 @@
 import React from 'react';
-import { CalendarRow, DailyForecastPoint, SalesRow } from '../types/domain';
+import { CalendarRecord, DailyForecastPoint, SalesRecord } from '../types/domain';
 
 interface ProductChartProps {
-  history: SalesRow[];
+  history: SalesRecord[];
   forecastPoints: DailyForecastPoint[];
-  calendarByDate: Map<string, CalendarRow>;
+  calendarByDate: Map<string, CalendarRecord>;
 }
 
 export const ProductChart: React.FC<ProductChartProps> = ({
@@ -119,7 +119,7 @@ export const ProductChart: React.FC<ProductChartProps> = ({
 
         {recentHist.map((h, i) => {
           const cal = calendarByDate.get(h.date);
-          const isEv = h.is_promotion || cal?.holiday || cal?.festival || cal?.promotion_event;
+          const isEv = Boolean(h.is_promotion || cal?.holiday || cal?.festival || cal?.promotion_event);
           return (
             <circle
               key={`h-${h.date}`}

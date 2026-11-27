@@ -1,1323 +1,1328 @@
-date,product_id,product,category,quantity_sold,selling_price,promotion_name,is_promotion
-2026-07-30,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-07-31,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-01,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
-2026-08-02,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-08-03,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-04,SKU-101,Fresh Whole Milk 1L,Dairy,14,3.49,,0
-2026-08-05,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-08-06,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-08-07,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-08,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
-2026-08-09,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
-2026-08-10,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-08-11,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-08-12,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-13,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-08-14,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-08-15,SKU-101,Fresh Whole Milk 1L,Dairy,36,3.49,,0
-2026-08-16,SKU-101,Fresh Whole Milk 1L,Dairy,30,3.49,,0
-2026-08-17,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-18,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-19,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-08-20,SKU-101,Fresh Whole Milk 1L,Dairy,15,3.49,,0
-2026-08-21,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-08-22,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-08-23,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
-2026-08-24,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-08-25,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-08-26,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-08-27,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-08-28,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-08-29,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-08-30,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
-2026-08-31,SKU-101,Fresh Whole Milk 1L,Dairy,12,3.49,,0
-2026-09-01,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-09-02,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-09-03,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-09-04,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-09-05,SKU-101,Fresh Whole Milk 1L,Dairy,33,3.49,Labor Weekend Promo,1
-2026-09-06,SKU-101,Fresh Whole Milk 1L,Dairy,38,3.49,Labor Weekend Promo,1
-2026-09-07,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-09-08,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-09-09,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-09-10,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-09-11,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-09-12,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-09-13,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-09-14,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-09-15,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-09-16,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-09-17,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-09-18,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-09-19,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-09-20,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
-2026-09-21,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
-2026-09-22,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-09-23,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-09-24,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-09-25,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
-2026-09-26,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-09-27,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
-2026-09-28,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
-2026-09-29,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-09-30,SKU-101,Fresh Whole Milk 1L,Dairy,15,3.49,,0
-2026-10-01,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-10-02,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-10-03,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
-2026-10-04,SKU-101,Fresh Whole Milk 1L,Dairy,27,3.49,,0
-2026-10-05,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-10-06,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-10-07,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-10-08,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-10-09,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
-2026-10-10,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
-2026-10-11,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
-2026-10-12,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
-2026-10-13,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
-2026-10-14,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-10-15,SKU-101,Fresh Whole Milk 1L,Dairy,17,3.49,,0
-2026-10-16,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-10-17,SKU-101,Fresh Whole Milk 1L,Dairy,29,3.49,,0
-2026-10-18,SKU-101,Fresh Whole Milk 1L,Dairy,26,3.49,,0
-2026-10-19,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-10-20,SKU-101,Fresh Whole Milk 1L,Dairy,14,3.49,,0
-2026-10-21,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-10-22,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-10-23,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-10-24,SKU-101,Fresh Whole Milk 1L,Dairy,31,3.49,,0
-2026-10-25,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-10-26,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-10-27,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-10-28,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
-2026-10-29,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-10-30,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-10-31,SKU-101,Fresh Whole Milk 1L,Dairy,35,3.49,,0
-2026-11-01,SKU-101,Fresh Whole Milk 1L,Dairy,30,3.49,,0
-2026-11-02,SKU-101,Fresh Whole Milk 1L,Dairy,20,3.49,,0
-2026-11-03,SKU-101,Fresh Whole Milk 1L,Dairy,22,3.49,,0
-2026-11-04,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-11-05,SKU-101,Fresh Whole Milk 1L,Dairy,24,3.49,,0
-2026-11-06,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-07,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,,0
-2026-11-08,SKU-101,Fresh Whole Milk 1L,Dairy,28,3.49,,0
-2026-11-09,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-10,SKU-101,Fresh Whole Milk 1L,Dairy,16,3.49,,0
-2026-11-11,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-11-12,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
-2026-11-13,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-11-14,SKU-101,Fresh Whole Milk 1L,Dairy,39,3.49,Mid-Month Mega Sale,1
-2026-11-15,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,Mid-Month Mega Sale,1
-2026-11-16,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-11-17,SKU-101,Fresh Whole Milk 1L,Dairy,21,3.49,,0
-2026-11-18,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-19,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-20,SKU-101,Fresh Whole Milk 1L,Dairy,19,3.49,,0
-2026-11-21,SKU-101,Fresh Whole Milk 1L,Dairy,32,3.49,,0
-2026-11-22,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
-2026-11-23,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-24,SKU-101,Fresh Whole Milk 1L,Dairy,23,3.49,,0
-2026-11-25,SKU-101,Fresh Whole Milk 1L,Dairy,18,3.49,,0
-2026-11-26,SKU-101,Fresh Whole Milk 1L,Dairy,25,3.49,,0
-2026-07-30,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-07-31,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-08-01,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-08-02,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
-2026-08-03,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-08-04,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-08-05,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-08-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-08-07,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
-2026-08-08,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
-2026-08-09,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-08-10,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-08-11,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
-2026-08-12,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
-2026-08-13,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-08-14,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-08-15,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,,0
-2026-08-16,SKU-102,Artisan Sourdough Loaf,Bakery,24,5.25,,0
-2026-08-17,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-08-18,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-08-19,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-08-20,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-08-21,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-08-22,SKU-102,Artisan Sourdough Loaf,Bakery,26,5.25,,0
-2026-08-23,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
-2026-08-24,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-08-25,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
-2026-08-26,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-08-27,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-08-28,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-08-29,SKU-102,Artisan Sourdough Loaf,Bakery,25,5.25,,0
-2026-08-30,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-08-31,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-09-01,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-02,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-03,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-04,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-09-05,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,Labor Weekend Promo,1
-2026-09-06,SKU-102,Artisan Sourdough Loaf,Bakery,32,5.25,Labor Weekend Promo,1
-2026-09-07,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-08,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-09-09,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-10,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-11,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-09-12,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-09-13,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-09-14,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-09-15,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
-2026-09-16,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-09-17,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-18,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-09-19,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
-2026-09-20,SKU-102,Artisan Sourdough Loaf,Bakery,19,5.25,,0
-2026-09-21,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-22,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-09-23,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-09-24,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-09-25,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-09-26,SKU-102,Artisan Sourdough Loaf,Bakery,20,5.25,,0
-2026-09-27,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-09-28,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-09-29,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
-2026-09-30,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-10-01,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-10-02,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-03,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-10-04,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-10-05,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-10-07,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-10-08,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-09,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-10-10,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-10-11,SKU-102,Artisan Sourdough Loaf,Bakery,27,5.25,,0
-2026-10-12,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-10-13,SKU-102,Artisan Sourdough Loaf,Bakery,21,5.25,,0
-2026-10-14,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-15,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-10-16,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-10-17,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-10-18,SKU-102,Artisan Sourdough Loaf,Bakery,27,5.25,,0
-2026-10-19,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-20,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-10-21,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-22,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-10-23,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-10-24,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-10-25,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-10-26,SKU-102,Artisan Sourdough Loaf,Bakery,10,5.25,,0
-2026-10-27,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-10-28,SKU-102,Artisan Sourdough Loaf,Bakery,14,5.25,,0
-2026-10-29,SKU-102,Artisan Sourdough Loaf,Bakery,17,5.25,,0
-2026-10-30,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-10-31,SKU-102,Artisan Sourdough Loaf,Bakery,32,5.25,,0
-2026-11-01,SKU-102,Artisan Sourdough Loaf,Bakery,29,5.25,,0
-2026-11-02,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-11-03,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
-2026-11-04,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-11-05,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-06,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-07,SKU-102,Artisan Sourdough Loaf,Bakery,25,5.25,,0
-2026-11-08,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-11-09,SKU-102,Artisan Sourdough Loaf,Bakery,11,5.25,,0
-2026-11-10,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-11-11,SKU-102,Artisan Sourdough Loaf,Bakery,16,5.25,,0
-2026-11-12,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-13,SKU-102,Artisan Sourdough Loaf,Bakery,10,5.25,,0
-2026-11-14,SKU-102,Artisan Sourdough Loaf,Bakery,31,5.25,Mid-Month Mega Sale,1
-2026-11-15,SKU-102,Artisan Sourdough Loaf,Bakery,34,5.25,Mid-Month Mega Sale,1
-2026-11-16,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-11-17,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-18,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-19,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-11-20,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-11-21,SKU-102,Artisan Sourdough Loaf,Bakery,22,5.25,,0
-2026-11-22,SKU-102,Artisan Sourdough Loaf,Bakery,23,5.25,,0
-2026-11-23,SKU-102,Artisan Sourdough Loaf,Bakery,15,5.25,,0
-2026-11-24,SKU-102,Artisan Sourdough Loaf,Bakery,13,5.25,,0
-2026-11-25,SKU-102,Artisan Sourdough Loaf,Bakery,12,5.25,,0
-2026-11-26,SKU-102,Artisan Sourdough Loaf,Bakery,18,5.25,,0
-2026-07-30,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-07-31,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-08-01,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-08-02,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-03,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-08-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-05,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-08-06,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-07,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-08-08,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-09,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-10,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-11,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-12,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-08-13,SKU-103,Greek Yogurt 500g,Dairy,16,4.5,,0
-2026-08-14,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-08-15,SKU-103,Greek Yogurt 500g,Dairy,19,4.5,,0
-2026-08-16,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-08-17,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-08-18,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-08-19,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-20,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-08-21,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-08-22,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-08-23,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-08-24,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-08-25,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-08-26,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-08-27,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-08-28,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-08-29,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-08-30,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-08-31,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-09-01,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-09-02,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-09-03,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-09-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-09-05,SKU-103,Greek Yogurt 500g,Dairy,19,4.5,Labor Weekend Promo,1
-2026-09-06,SKU-103,Greek Yogurt 500g,Dairy,18,4.5,Labor Weekend Promo,1
-2026-09-07,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-09-08,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-09-09,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-10,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-11,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-12,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-13,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-09-14,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-09-15,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-16,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-17,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-09-18,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-09-19,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-09-20,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-09-21,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-22,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-09-23,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-09-24,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-09-25,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-09-26,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
-2026-09-27,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-09-28,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-09-29,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-09-30,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-01,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-10-02,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-10-03,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-10-04,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-10-05,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-10-06,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-07,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-10-08,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-09,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-10-10,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-10-11,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-10-12,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-10-13,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-10-14,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-10-15,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-16,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-10-17,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
-2026-10-18,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
-2026-10-19,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-10-20,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-21,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-10-22,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-10-23,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-10-24,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-25,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
-2026-10-26,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-10-27,SKU-103,Greek Yogurt 500g,Dairy,8,4.5,,0
-2026-10-28,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-10-29,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-10-30,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-10-31,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,,0
-2026-11-01,SKU-103,Greek Yogurt 500g,Dairy,16,4.5,,0
-2026-11-02,SKU-103,Greek Yogurt 500g,Dairy,9,4.5,,0
-2026-11-03,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-11-04,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-11-05,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-11-06,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-11-07,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-11-08,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-11-09,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-11-10,SKU-103,Greek Yogurt 500g,Dairy,68,4.5,,0
-2026-11-11,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-11-12,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-11-13,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-11-14,SKU-103,Greek Yogurt 500g,Dairy,18,4.5,Mid-Month Mega Sale,1
-2026-11-15,SKU-103,Greek Yogurt 500g,Dairy,17,4.5,Mid-Month Mega Sale,1
-2026-11-16,SKU-103,Greek Yogurt 500g,Dairy,10,4.5,,0
-2026-11-17,SKU-103,Greek Yogurt 500g,Dairy,13,4.5,,0
-2026-11-18,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-11-19,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-11-20,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-11-21,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-11-22,SKU-103,Greek Yogurt 500g,Dairy,14,4.5,,0
-2026-11-23,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-11-24,SKU-103,Greek Yogurt 500g,Dairy,11,4.5,,0
-2026-11-25,SKU-103,Greek Yogurt 500g,Dairy,12,4.5,,0
-2026-11-26,SKU-103,Greek Yogurt 500g,Dairy,15,4.5,,0
-2026-07-30,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-07-31,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-08-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-08-02,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-08-03,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-08-04,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-08-05,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-08-06,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-08-07,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-08-08,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-08-09,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-08-10,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-08-11,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-08-12,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-08-13,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-08-14,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-08-15,SKU-104,Free-Range Eggs 12pk,Dairy,24,5.99,,0
-2026-08-16,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-08-17,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-08-18,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-08-19,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-08-20,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-08-21,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-08-22,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
-2026-08-23,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-08-24,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-08-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-08-26,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-08-27,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-08-28,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-08-29,SKU-104,Free-Range Eggs 12pk,Dairy,23,5.99,,0
-2026-08-30,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-08-31,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-09-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-09-02,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-09-03,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-09-04,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-09-05,SKU-104,Free-Range Eggs 12pk,Dairy,26,5.99,Labor Weekend Promo,1
-2026-09-06,SKU-104,Free-Range Eggs 12pk,Dairy,24,5.99,Labor Weekend Promo,1
-2026-09-07,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-09-08,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-09-09,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-09-10,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
-2026-09-11,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-09-12,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
-2026-09-13,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-09-14,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-09-15,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-09-16,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-09-17,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-09-18,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-09-19,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-09-20,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-09-21,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-09-22,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-09-23,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-09-24,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-09-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-09-26,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
-2026-09-27,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-09-28,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-09-29,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-09-30,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-10-01,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-10-02,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-10-03,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-10-04,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-10-05,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-10-06,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-10-07,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
-2026-10-08,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-10-09,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-10-10,SKU-104,Free-Range Eggs 12pk,Dairy,23,5.99,,0
-2026-10-11,SKU-104,Free-Range Eggs 12pk,Dairy,25,5.99,,0
-2026-10-12,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-10-13,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-10-14,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-10-15,SKU-104,Free-Range Eggs 12pk,Dairy,19,5.99,,0
-2026-10-16,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
-2026-10-17,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
-2026-10-18,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-10-19,SKU-104,Free-Range Eggs 12pk,Dairy,10,5.99,,0
-2026-10-20,SKU-104,Free-Range Eggs 12pk,Dairy,11,5.99,,0
-2026-10-21,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-10-22,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-10-23,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-10-24,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-10-25,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-10-26,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-10-27,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-10-28,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-10-29,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-10-30,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-10-31,SKU-104,Free-Range Eggs 12pk,Dairy,26,5.99,,0
-2026-11-01,SKU-104,Free-Range Eggs 12pk,Dairy,20,5.99,,0
-2026-11-02,SKU-104,Free-Range Eggs 12pk,Dairy,18,5.99,,0
-2026-11-03,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-11-04,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-11-05,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-11-06,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-11-07,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
-2026-11-08,SKU-104,Free-Range Eggs 12pk,Dairy,21,5.99,,0
-2026-11-09,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-11-10,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-11-11,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-11-12,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-11-13,SKU-104,Free-Range Eggs 12pk,Dairy,15,5.99,,0
-2026-11-14,SKU-104,Free-Range Eggs 12pk,Dairy,29,5.99,Mid-Month Mega Sale,1
-2026-11-15,SKU-104,Free-Range Eggs 12pk,Dairy,25,5.99,Mid-Month Mega Sale,1
-2026-11-16,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-11-17,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-11-18,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-11-19,SKU-104,Free-Range Eggs 12pk,Dairy,14,5.99,,0
-2026-11-20,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-11-21,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-11-22,SKU-104,Free-Range Eggs 12pk,Dairy,22,5.99,,0
-2026-11-23,SKU-104,Free-Range Eggs 12pk,Dairy,12,5.99,,0
-2026-11-24,SKU-104,Free-Range Eggs 12pk,Dairy,13,5.99,,0
-2026-11-25,SKU-104,Free-Range Eggs 12pk,Dairy,17,5.99,,0
-2026-11-26,SKU-104,Free-Range Eggs 12pk,Dairy,16,5.99,,0
-2026-07-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-07-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-01,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-02,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-08-03,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-04,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
-2026-08-05,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-08-06,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-07,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-08-08,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-09,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-10,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-11,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-12,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-13,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-08-14,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-16,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-17,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-08-18,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-20,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-21,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-08-22,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-23,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-08-24,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-25,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-27,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-08-28,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-08-29,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-30,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-08-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-01,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-09-02,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-03,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
-2026-09-04,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-05,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,Labor Weekend Promo,1
-2026-09-06,SKU-105,Organic Baby Spinach 250g,Produce,11,3.99,Labor Weekend Promo,1
-2026-09-07,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-08,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-09,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-10,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-09-11,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-09-12,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-13,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-14,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-15,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-16,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-18,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-19,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-09-20,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-09-22,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-09-23,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
-2026-09-24,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-25,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-27,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-28,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-09-29,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
-2026-09-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-01,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-02,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-03,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-10-04,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-10-05,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-06,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-07,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-08,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-09,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-10,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-10-11,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-10-12,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-10-13,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-14,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-10-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-10-16,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-18,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-10-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-20,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-22,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-10-23,SKU-105,Organic Baby Spinach 250g,Produce,5,3.99,,0
-2026-10-24,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-10-25,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-10-26,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-27,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-28,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-29,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-10-30,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-10-31,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-01,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-11-02,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-11-03,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-04,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-05,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-06,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-11-07,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-11-08,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-11-09,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-10,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-11,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-11-12,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-13,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-14,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,Mid-Month Mega Sale,1
-2026-11-15,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,Mid-Month Mega Sale,1
-2026-11-16,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-17,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-18,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-19,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-20,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-11-21,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-22,SKU-105,Organic Baby Spinach 250g,Produce,10,3.99,,0
-2026-11-23,SKU-105,Organic Baby Spinach 250g,Produce,7,3.99,,0
-2026-11-24,SKU-105,Organic Baby Spinach 250g,Produce,6,3.99,,0
-2026-11-25,SKU-105,Organic Baby Spinach 250g,Produce,9,3.99,,0
-2026-11-26,SKU-105,Organic Baby Spinach 250g,Produce,8,3.99,,0
-2026-07-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-07-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-08-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-08-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-08-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-08-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-08-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
-2026-08-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-08-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-08-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
-2026-08-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-08-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-08-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-08-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-08-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,23,4.99,,0
-2026-08-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-08-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-08-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-08-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-08-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-08-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-08-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-08-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-08-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-08-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-08-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-08-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,23,4.99,Labor Weekend Promo,1
-2026-09-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,22,4.99,Labor Weekend Promo,1
-2026-09-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-09-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-09-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
-2026-09-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-09-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-09-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-09-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-09-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-09-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-09-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-09-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-09-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-09-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-09-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-09-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-09-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-09-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-10-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-10-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-10-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-10-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-10-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-10-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
-2026-10-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-10-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-10-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-10-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-10-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-10-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-10-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
-2026-10-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-10-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-10-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-10-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-10-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-10-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-10-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-10-27,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-10-28,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-10-29,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-10-30,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-10-31,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,21,4.99,,0
-2026-11-01,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-11-02,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-11-03,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-11-04,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,9,4.99,,0
-2026-11-05,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,11,4.99,,0
-2026-11-06,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-11-07,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,16,4.99,,0
-2026-11-08,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-11-09,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-11-10,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-11-11,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-11-12,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-11-13,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-11-14,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,22,4.99,Mid-Month Mega Sale,1
-2026-11-15,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,24,4.99,Mid-Month Mega Sale,1
-2026-11-16,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,14,4.99,,0
-2026-11-17,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-11-18,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,10,4.99,,0
-2026-11-19,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-11-20,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-11-21,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,17,4.99,,0
-2026-11-22,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,18,4.99,,0
-2026-11-23,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,15,4.99,,0
-2026-11-24,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,13,4.99,,0
-2026-11-25,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,12,4.99,,0
-2026-11-26,SKU-106,Cold-Pressed Orange Juice 1L,Beverages,19,4.99,,0
-2026-07-30,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-07-31,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-08-01,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-08-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-03,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
-2026-08-04,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-06,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-07,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-08-08,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-08-09,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-10,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-11,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-08-12,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-13,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-14,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-15,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,,0
-2026-08-16,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-08-17,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-18,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-08-19,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-20,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-08-21,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-22,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
-2026-08-23,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-08-24,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
-2026-08-25,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-08-26,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-27,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-08-28,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-29,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-08-30,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
-2026-08-31,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-01,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-02,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-09-03,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-04,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-05,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,Labor Weekend Promo,1
-2026-09-06,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,Labor Weekend Promo,1
-2026-09-07,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-08,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-09,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-09-10,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-11,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-12,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-13,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-14,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-09-15,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-16,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-09-17,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-09-18,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-19,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-20,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-09-21,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-22,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-24,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-09-25,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-09-26,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-27,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-28,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-09-29,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-09-30,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-01,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-03,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
-2026-10-04,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-10-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-06,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-07,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-08,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-09,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-10,SKU-107,Roast Arabica Coffee 250g,Pantry,11,9.99,,0
-2026-10-11,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-12,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,,0
-2026-10-13,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,,0
-2026-10-14,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-10-15,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-16,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-10-17,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-18,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-19,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-20,SKU-107,Roast Arabica Coffee 250g,Pantry,4,9.99,,0
-2026-10-21,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-10-22,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-24,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-25,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-26,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-27,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-28,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-10-29,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-10-30,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-10-31,SKU-107,Roast Arabica Coffee 250g,Pantry,15,9.99,,0
-2026-11-01,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-02,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-03,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-04,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-05,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-06,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-11-07,SKU-107,Roast Arabica Coffee 250g,Pantry,10,9.99,,0
-2026-11-08,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-09,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-11-10,SKU-107,Roast Arabica Coffee 250g,Pantry,6,9.99,,0
-2026-11-11,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-11-12,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-13,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-11-14,SKU-107,Roast Arabica Coffee 250g,Pantry,14,9.99,Mid-Month Mega Sale,1
-2026-11-15,SKU-107,Roast Arabica Coffee 250g,Pantry,12,9.99,Mid-Month Mega Sale,1
-2026-11-16,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-11-17,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-11-18,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-11-19,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-11-20,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-21,SKU-107,Roast Arabica Coffee 250g,Pantry,9,9.99,,0
-2026-11-22,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-23,SKU-107,Roast Arabica Coffee 250g,Pantry,8,9.99,,0
-2026-11-24,SKU-107,Roast Arabica Coffee 250g,Pantry,7,9.99,,0
-2026-11-25,SKU-107,Roast Arabica Coffee 250g,Pantry,5,9.99,,0
-2026-11-26,SKU-107,Roast Arabica Coffee 250g,Pantry,13,9.99,,0
-2026-07-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-07-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-08-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-08-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-08-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
-2026-08-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-08-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
-2026-08-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-08-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-08-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-08-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-08-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-08-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-08-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-09-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,10,12.5,Labor Weekend Promo,1
-2026-09-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,Labor Weekend Promo,1
-2026-09-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-09-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-09-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-09-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-09-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-09-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-09-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-09-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-09-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-09-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-10-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-10-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-10-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-10-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-10-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-10-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-10-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-10-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-10-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-10-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-10-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-10-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-27,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-28,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-29,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-10-30,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-10-31,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,,0
-2026-11-01,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-11-02,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-11-03,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-11-04,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-05,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-06,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-11-07,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-11-08,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-11-09,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-11-10,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,3,12.5,,0
-2026-11-11,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-12,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-13,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-11-14,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,8,12.5,Mid-Month Mega Sale,1
-2026-11-15,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,10,12.5,Mid-Month Mega Sale,1
-2026-11-16,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-17,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-18,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,2,12.5,,0
-2026-11-19,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-11-20,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-21,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-11-22,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-11-23,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,6,12.5,,0
-2026-11-24,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,5,12.5,,0
-2026-11-25,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,4,12.5,,0
-2026-11-26,SKU-108,Extra Virgin Olive Oil 500ml,Pantry,7,12.5,,0
-2026-07-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-07-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-08-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
-2026-08-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,16,6.49,,0
-2026-08-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-08-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-08-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,17,6.49,,0
-2026-08-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-08-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
-2026-08-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
-2026-08-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-08-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-08-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-08-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
-2026-08-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-08-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-08-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,35,6.49,,0
-2026-08-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
-2026-08-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-08-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-08-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,16,6.49,,0
-2026-08-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-08-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-08-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
-2026-08-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
-2026-08-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,10,6.49,,0
-2026-08-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-08-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-08-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-08-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-08-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
-2026-08-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-08-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-09-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-09-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,34,6.49,Labor Weekend Promo,1
-2026-09-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,36,6.49,Labor Weekend Promo,1
-2026-09-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-09-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-09-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-09-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,8,6.49,,0
-2026-09-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-09-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
-2026-09-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
-2026-09-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-09-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-09-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-09-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-09-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,18,6.49,,0
-2026-09-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-09-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-09-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-09-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-09-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,23,6.49,,0
-2026-09-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-09-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-09-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-09-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-10-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-10-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,23,6.49,,0
-2026-10-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
-2026-10-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-10-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-10-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,24,6.49,,0
-2026-10-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-10-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-10-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-10-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-10-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-10-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-10-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-10-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
-2026-10-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,22,6.49,,0
-2026-10-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-27,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-10-28,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-10-29,SKU-109,Sparkling Craft Cola 6pk,Beverages,9,6.49,,0
-2026-10-30,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-10-31,SKU-109,Sparkling Craft Cola 6pk,Beverages,32,6.49,,0
-2026-11-01,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-11-02,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-11-03,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-11-04,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-11-05,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-11-06,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-11-07,SKU-109,Sparkling Craft Cola 6pk,Beverages,21,6.49,,0
-2026-11-08,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-11-09,SKU-109,Sparkling Craft Cola 6pk,Beverages,15,6.49,,0
-2026-11-10,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-11-11,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-11-12,SKU-109,Sparkling Craft Cola 6pk,Beverages,14,6.49,,0
-2026-11-13,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-11-14,SKU-109,Sparkling Craft Cola 6pk,Beverages,31,6.49,Mid-Month Mega Sale,1
-2026-11-15,SKU-109,Sparkling Craft Cola 6pk,Beverages,30,6.49,Mid-Month Mega Sale,1
-2026-11-16,SKU-109,Sparkling Craft Cola 6pk,Beverages,18,6.49,,0
-2026-11-17,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-11-18,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-11-19,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-11-20,SKU-109,Sparkling Craft Cola 6pk,Beverages,12,6.49,,0
-2026-11-21,SKU-109,Sparkling Craft Cola 6pk,Beverages,19,6.49,,0
-2026-11-22,SKU-109,Sparkling Craft Cola 6pk,Beverages,17,6.49,,0
-2026-11-23,SKU-109,Sparkling Craft Cola 6pk,Beverages,11,6.49,,0
-2026-11-24,SKU-109,Sparkling Craft Cola 6pk,Beverages,10,6.49,,0
-2026-11-25,SKU-109,Sparkling Craft Cola 6pk,Beverages,13,6.49,,0
-2026-11-26,SKU-109,Sparkling Craft Cola 6pk,Beverages,20,6.49,,0
-2026-07-30,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-07-31,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-01,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-02,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-08-03,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-04,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-05,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-06,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-07,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-08,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-09,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-10,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-13,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-14,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-15,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-08-16,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-17,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-18,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-20,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-21,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-22,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-08-23,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-08-24,SKU-110,Laundry Detergent Pods 30ct,Household,2,14.99,,0
-2026-08-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-26,SKU-110,Laundry Detergent Pods 30ct,Household,1,14.99,,0
-2026-08-27,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-28,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-08-29,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-30,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-08-31,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-01,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-02,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-09-03,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-09-04,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-05,SKU-110,Laundry Detergent Pods 30ct,Household,7,14.99,Labor Weekend Promo,1
-2026-09-06,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,Labor Weekend Promo,1
-2026-09-07,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-08,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-09-09,SKU-110,Laundry Detergent Pods 30ct,Household,2,14.99,,0
-2026-09-10,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-09-11,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-13,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-14,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-09-15,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-16,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-17,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-09-18,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-20,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-09-21,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-22,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-09-23,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-24,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-26,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-27,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-28,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-09-29,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-09-30,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-01,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-02,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-03,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-10-04,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-05,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-06,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-07,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-08,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-09,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-10,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-13,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-14,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-15,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-16,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-17,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-18,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-20,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-21,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-10-22,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-23,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-24,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-25,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-26,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-27,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-28,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-29,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-10-30,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-10-31,SKU-110,Laundry Detergent Pods 30ct,Household,7,14.99,,0
-2026-11-01,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-11-02,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-03,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-04,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-11-05,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-06,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-07,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-11-08,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-09,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-11-10,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-11-11,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-12,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-13,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-11-14,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,Mid-Month Mega Sale,1
-2026-11-15,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,Mid-Month Mega Sale,1
-2026-11-16,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-17,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-18,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-19,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-20,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-21,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-22,SKU-110,Laundry Detergent Pods 30ct,Household,6,14.99,,0
-2026-11-23,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-24,SKU-110,Laundry Detergent Pods 30ct,Household,3,14.99,,0
-2026-11-25,SKU-110,Laundry Detergent Pods 30ct,Household,4,14.99,,0
-2026-11-26,SKU-110,Laundry Detergent Pods 30ct,Household,5,14.99,,0
-2026-07-30,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-07-31,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-01,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-08-02,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-03,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-05,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-06,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-08,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-08-09,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-08-10,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-11,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-12,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-13,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-08-14,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-08-15,SKU-111,Basmati Rice 2kg,Pantry,16,7.49,,0
-2026-08-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-17,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-18,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-19,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-08-20,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-21,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-08-22,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-23,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-08-24,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-08-25,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-08-26,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-08-27,SKU-111,Basmati Rice 2kg,Pantry,6,7.49,,0
-2026-08-28,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-29,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-08-30,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-08-31,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-09-01,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-09-02,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-03,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-05,SKU-111,Basmati Rice 2kg,Pantry,16,7.49,Labor Weekend Promo,1
-2026-09-06,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Labor Weekend Promo,1
-2026-09-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-08,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-10,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-11,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-12,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
-2026-09-13,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-09-14,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-09-15,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-17,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-18,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-19,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-09-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-09-21,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-22,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-23,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-09-24,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-25,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-09-26,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-09-27,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-09-28,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-09-29,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-09-30,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-10-01,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-10-02,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-10-03,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-10-04,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-05,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-06,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-07,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-08,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-10-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-10,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-10-11,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-10-12,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
-2026-10-13,SKU-111,Basmati Rice 2kg,Pantry,14,7.49,,0
-2026-10-14,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-10-15,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-16,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-17,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-18,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-10-19,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-21,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-10-22,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-23,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-10-24,SKU-111,Basmati Rice 2kg,Pantry,13,7.49,,0
-2026-10-25,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-10-26,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-10-27,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-28,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-29,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-10-30,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-10-31,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,,0
-2026-11-01,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-11-02,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-03,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-04,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-11-05,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-11-06,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-11-07,SKU-111,Basmati Rice 2kg,Pantry,12,7.49,,0
-2026-11-08,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-11-09,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-10,SKU-111,Basmati Rice 2kg,Pantry,7,7.49,,0
-2026-11-11,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-11-12,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-11-13,SKU-111,Basmati Rice 2kg,Pantry,8,7.49,,0
-2026-11-14,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Mid-Month Mega Sale,1
-2026-11-15,SKU-111,Basmati Rice 2kg,Pantry,15,7.49,Mid-Month Mega Sale,1
-2026-11-16,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-17,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-11-18,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-19,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-20,SKU-111,Basmati Rice 2kg,Pantry,9,7.49,,0
-2026-11-21,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-11-22,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-11-23,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-11-24,SKU-111,Basmati Rice 2kg,Pantry,10,7.49,,0
-2026-11-25,SKU-111,Basmati Rice 2kg,Pantry,11,7.49,,0
-2026-11-26,SKU-111,Basmati Rice 2kg,Pantry,14,7.49,,0
-2026-11-18,SKU-112,Seasonal Truffle Oil 100ml,Pantry,4,18.0,,0
-2026-11-24,SKU-112,Seasonal Truffle Oil 100ml,Pantry,1,18.0,,0
+date,product_id,product,category,quantity_sold,selling_price,promotion_name,is_promotion,stock_availability
+2026-07-30,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-07-30,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-07-30,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-07-30,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-07-30,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-07-30,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-07-30,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-07-30,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-07-30,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-07-30,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-07-30,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-07-31,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-07-31,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-07-31,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-07-31,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-07-31,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-07-31,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-07-31,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-07-31,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-07-31,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-07-31,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-07-31,G002,Tomato Sauce,Pantry,7,5.50,,false,in_stock
+2026-07-31,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-01,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-01,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-01,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-01,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-01,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-01,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-01,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-01,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-01,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-01,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-01,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-02,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-02,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-02,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-02,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-02,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-02,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-02,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-02,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-02,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-02,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-02,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-03,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-03,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-03,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-03,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-03,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-03,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-03,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-03,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-03,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-03,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-03,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-04,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-04,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-04,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-04,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-04,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-04,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-04,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-04,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-04,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-04,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-04,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-05,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-05,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-05,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-05,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-05,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-05,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-05,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-05,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-05,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-05,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-05,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-06,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-06,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-06,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-06,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-06,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-06,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-06,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-06,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-06,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-06,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-06,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-07,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-07,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-07,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-07,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-07,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-07,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-07,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-07,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-07,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-07,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-07,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-08,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-08,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-08,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-08,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-08,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-08,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-08,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-08,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-08,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-08,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-08,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-09,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-09,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-09,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-09,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-09,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-09,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-09,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-09,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-09,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-09,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-09,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-10,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-10,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-10,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-10,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-10,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-10,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-10,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-10,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-10,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-10,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-10,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-11,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-11,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-11,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-11,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-11,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-11,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-11,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-11,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-11,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-11,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-11,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-12,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-12,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-12,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-12,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-12,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-12,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-12,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-12,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-12,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-12,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-12,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-13,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-13,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-13,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-13,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-13,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-13,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-13,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-13,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-13,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-13,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-13,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-14,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-14,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-14,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-14,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-14,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-14,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-14,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-14,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-14,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-14,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-14,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-15,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-15,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-15,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-15,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-15,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-15,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-15,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-15,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-15,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-15,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-15,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-16,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-16,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-16,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-16,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-16,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-16,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-16,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-16,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-16,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-16,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-16,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-17,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-17,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-17,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-17,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-17,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-17,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-17,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-17,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-17,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-17,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-17,G002,Tomato Sauce,Pantry,7,5.50,,false,in_stock
+2026-08-17,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-18,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-18,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-18,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-18,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-18,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-18,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-18,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-18,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-18,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-18,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-18,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-19,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-19,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-19,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-19,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-19,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-19,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-19,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-19,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-19,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-19,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-19,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-20,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-20,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-20,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-20,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-20,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-20,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-20,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-20,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-20,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-20,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-20,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-21,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-21,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-21,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-21,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-21,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-21,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-21,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-21,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-21,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-21,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-21,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-22,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-22,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-22,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-22,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-22,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-22,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-22,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-22,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-22,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-22,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-22,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-23,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-23,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-23,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-23,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-23,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-23,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-23,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-23,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-23,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-23,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-23,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-24,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-24,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-24,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-24,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-24,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-24,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-24,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-24,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-24,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-24,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-24,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-25,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-25,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-25,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-25,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-25,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-25,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-25,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-25,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-25,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-25,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-25,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-26,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-26,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-26,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-26,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-26,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-26,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-26,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-26,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-26,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-26,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-26,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-27,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-27,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-27,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-27,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-27,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-27,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-27,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-27,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-27,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-27,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-27,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-28,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-28,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-28,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-28,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-28,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-28,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-28,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-28,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-28,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-28,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-28,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-29,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-29,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-29,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-29,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-29,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-29,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-29,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-29,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-29,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-29,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-29,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-30,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-08-30,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-08-30,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-08-30,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-08-30,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-08-30,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-08-30,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-08-30,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-08-30,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-08-30,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-30,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-08-31,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-08-31,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-08-31,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-08-31,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-08-31,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-08-31,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-08-31,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-08-31,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-08-31,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-08-31,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-08-31,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-01,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-01,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-01,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-01,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-01,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-01,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-01,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-01,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-01,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-01,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-01,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-02,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-02,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-02,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-02,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-02,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-02,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-02,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-02,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-02,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-02,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-02,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-03,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-03,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-03,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-03,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-03,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-03,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-03,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-03,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-03,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-03,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-03,G002,Tomato Sauce,Pantry,7,5.50,,false,in_stock
+2026-09-03,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-04,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-04,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-04,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-04,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-04,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-04,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-04,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-04,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-04,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-04,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-04,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-05,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-05,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-05,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-05,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-05,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-05,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-05,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-05,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-05,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-05,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-05,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-06,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-06,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-06,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-06,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-06,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-06,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-06,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-06,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-06,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-06,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-06,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-07,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-07,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-07,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-07,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-07,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-07,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-07,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-07,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-07,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-07,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-07,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-08,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-08,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-08,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-08,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-08,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-08,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-08,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-08,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-08,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-08,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-08,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-09,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-09,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-09,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-09,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-09,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-09,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-09,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-09,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-09,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-09,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-09,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-10,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-10,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-10,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-10,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-10,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-10,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-10,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-10,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-10,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-10,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-10,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-11,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-11,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-11,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-11,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-11,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-11,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-11,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-11,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-11,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-11,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-11,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-12,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-12,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-12,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-12,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-12,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-12,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-12,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-12,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-12,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-12,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-12,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-13,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-13,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-13,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-13,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-13,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-13,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-13,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-13,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-13,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-13,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-13,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-14,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-14,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-14,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-14,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-14,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-14,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-14,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-14,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-14,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-14,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-14,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-15,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-15,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-15,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-15,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-15,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-15,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-15,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-15,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-15,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-15,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-15,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-16,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-16,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-16,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-16,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-16,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-16,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-16,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-16,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-16,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-16,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-16,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-17,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-17,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-17,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-17,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-17,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-17,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-17,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-17,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-17,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-17,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-17,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-18,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-18,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-18,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-18,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-18,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-18,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-18,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-18,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-18,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-18,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-18,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-19,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-19,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-19,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-19,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-19,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-19,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-19,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-19,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-19,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-19,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-19,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-20,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-20,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-20,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-20,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-20,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-20,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-20,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-20,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-20,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-20,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-20,G002,Tomato Sauce,Pantry,8,5.50,,false,in_stock
+2026-09-20,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-21,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-21,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-21,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-21,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-21,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-21,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-21,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-21,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-21,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-21,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-21,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-22,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-22,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-22,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-22,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-22,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-22,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-22,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-22,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-22,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-22,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-22,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-23,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-23,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-23,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-23,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-23,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-23,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-23,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-23,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-23,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-23,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-23,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-24,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-24,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-24,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-24,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-24,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-24,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-24,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-24,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-24,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-24,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-24,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-25,D001,Whole Milk 1L,Dairy,43,1.20,Weekly Special,true,in_stock
+2026-09-25,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-25,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-25,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-25,P001,Bananas,Produce,38,2.92,Weekly Special,true,in_stock
+2026-09-25,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-25,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-25,F001,Orange Juice 1L,Beverages,14,4.21,Weekly Special,true,in_stock
+2026-09-25,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-25,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-25,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-26,D001,Whole Milk 1L,Dairy,55,1.20,Weekly Special,true,in_stock
+2026-09-26,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-26,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-26,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-26,P001,Bananas,Produce,49,2.92,Weekly Special,true,in_stock
+2026-09-26,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-26,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-26,F001,Orange Juice 1L,Beverages,15,4.21,Weekly Special,true,in_stock
+2026-09-26,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-26,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-26,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-27,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-09-27,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-09-27,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-09-27,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-09-27,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-09-27,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-09-27,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-09-27,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-09-27,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-09-27,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-27,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-28,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-28,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-28,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-28,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-28,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-28,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-28,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-28,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-28,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-28,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-28,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-29,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-29,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-29,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-29,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-29,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-29,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-29,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-29,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-29,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-29,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-29,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-09-30,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-09-30,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-09-30,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-09-30,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-09-30,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-09-30,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-09-30,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-09-30,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-09-30,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-09-30,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-09-30,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-01,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-01,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-01,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-01,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-01,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-01,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-01,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-01,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-01,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-01,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-01,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-02,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-02,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-02,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-02,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-02,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-02,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-02,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-02,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-02,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-02,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-02,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-03,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-03,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-03,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-03,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-03,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-03,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-03,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-03,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-03,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-03,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-03,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-04,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-04,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-04,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-04,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-04,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-04,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-04,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-04,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-04,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-04,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-04,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-05,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-05,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-05,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-05,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-05,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-05,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-05,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-05,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-05,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-05,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-05,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-06,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-06,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-06,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-06,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-06,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-06,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-06,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-06,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-06,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-06,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-06,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-07,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-07,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-07,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-07,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-07,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-07,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-07,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-07,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-07,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-07,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-07,G002,Tomato Sauce,Pantry,7,5.50,,false,in_stock
+2026-10-07,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-08,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-08,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-08,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-08,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-08,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-08,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-08,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-08,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-08,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-08,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-08,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-09,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-09,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-09,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-09,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-09,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-09,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-09,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-09,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-09,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-09,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-09,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-10,D001,Whole Milk 1L,Dairy,51,1.20,,false,in_stock
+2026-10-10,D002,Greek Yogurt,Dairy,28,1.63,,false,in_stock
+2026-10-10,B001,Sourdough Loaf,Bakery,23,2.06,,false,in_stock
+2026-10-10,B002,Croissants 4-pack,Bakery,18,2.49,,false,in_stock
+2026-10-10,P001,Bananas,Produce,45,2.92,,false,in_stock
+2026-10-10,P002,Baby Spinach,Produce,18,3.35,,false,in_stock
+2026-10-10,M001,Chicken Breast 500g,Meat,20,3.78,,false,in_stock
+2026-10-10,F001,Orange Juice 1L,Beverages,14,4.21,,false,in_stock
+2026-10-10,F002,Sparkling Water 6-pack,Beverages,11,4.64,,false,in_stock
+2026-10-10,G001,Pasta 500g,Pantry,6,5.07,,false,in_stock
+2026-10-10,H001,Dish Soap,Household,4,5.93,,false,in_stock
+2026-10-11,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-11,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-11,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-11,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-11,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-11,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-11,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-11,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-11,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-11,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-11,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-12,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-12,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-12,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-12,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-12,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-12,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-12,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-12,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-12,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-12,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-12,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-13,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-13,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-13,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-13,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-13,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-13,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-13,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-13,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-13,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-13,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-13,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-14,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-14,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-14,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-14,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-14,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-14,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-14,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-14,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-14,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-14,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-14,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-15,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-15,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-15,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-15,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-15,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-15,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-15,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-15,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-15,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-15,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-15,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-16,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-16,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-16,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-16,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-16,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-16,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-16,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-16,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-16,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-16,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-16,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-17,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-17,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-17,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-17,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-17,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-17,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-17,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-17,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-17,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-17,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-17,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-18,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-18,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-18,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-18,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-18,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-18,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-18,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-18,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-18,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-18,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-18,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-19,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-19,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-19,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-19,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-19,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-19,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-19,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-19,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-19,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-19,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-19,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-20,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-20,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-20,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-20,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-20,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-20,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-20,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-20,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-20,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-20,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-20,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-21,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-21,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-21,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-21,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-21,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-21,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-21,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-21,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-21,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-21,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-21,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-22,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-22,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-22,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-22,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-22,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-22,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-22,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-22,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-22,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-22,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-22,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-23,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-23,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-23,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-23,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-23,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-23,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-23,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-23,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-23,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-23,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-23,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-24,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-24,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-24,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-24,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-24,P001,Bananas,Produce,216,2.92,,false,in_stock
+2026-10-24,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-24,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-24,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-24,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-24,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-24,G002,Tomato Sauce,Pantry,8,5.50,,false,in_stock
+2026-10-24,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-25,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-25,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-25,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-25,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-25,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-25,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-25,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-25,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-25,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-25,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-25,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-26,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-26,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-26,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-26,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-26,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-26,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-26,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-26,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-26,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-26,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-26,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-27,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-27,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-27,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-27,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-27,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-27,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-27,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-27,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-27,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-27,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-27,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-28,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-28,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-28,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-28,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-28,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-28,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-28,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-28,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-28,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-28,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-28,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-29,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-29,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-29,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-29,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-29,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-29,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-29,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-29,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-29,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-29,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-29,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-30,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-10-30,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-10-30,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-10-30,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-10-30,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-10-30,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-10-30,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-10-30,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-10-30,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-10-30,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-30,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-10-31,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-10-31,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-10-31,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-10-31,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-10-31,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-10-31,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-10-31,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-10-31,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-10-31,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-10-31,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-10-31,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-01,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-01,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-01,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-01,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-01,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-01,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-01,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-01,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-01,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-01,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-01,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-02,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-02,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-02,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-02,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-02,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-02,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-02,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-02,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-02,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-02,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-02,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-03,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-03,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-03,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-03,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-03,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-03,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-03,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-03,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-03,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-03,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-03,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-04,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-04,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-04,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-04,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-04,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-04,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-04,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-04,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-04,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-04,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-04,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-05,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-05,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-05,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-05,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-05,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-05,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-05,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-05,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-05,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-05,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-05,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-06,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-06,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-06,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-06,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-06,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-06,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-06,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-06,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-06,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-06,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-06,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-07,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-07,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-07,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-07,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-07,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-07,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-07,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-07,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-07,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-07,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-07,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-08,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-08,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-08,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-08,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-08,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-08,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-08,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-08,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-08,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-08,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-08,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-09,D001,Whole Milk 1L,Dairy,43,1.20,Weekly Special,true,in_stock
+2026-11-09,D002,Greek Yogurt,Dairy,24,1.63,Weekly Special,true,in_stock
+2026-11-09,B001,Sourdough Loaf,Bakery,20,2.06,Weekly Special,true,in_stock
+2026-11-09,B002,Croissants 4-pack,Bakery,16,2.49,Weekly Special,true,in_stock
+2026-11-09,P001,Bananas,Produce,38,2.92,Weekly Special,true,in_stock
+2026-11-09,P002,Baby Spinach,Produce,16,3.35,Weekly Special,true,in_stock
+2026-11-09,M001,Chicken Breast 500g,Meat,19,3.78,Weekly Special,true,in_stock
+2026-11-09,F001,Orange Juice 1L,Beverages,14,4.21,Weekly Special,true,in_stock
+2026-11-09,F002,Sparkling Water 6-pack,Beverages,11,4.64,Weekly Special,true,in_stock
+2026-11-09,G001,Pasta 500g,Pantry,7,5.07,Weekly Special,true,in_stock
+2026-11-09,H001,Dish Soap,Household,4,5.93,Weekly Special,true,in_stock
+2026-11-10,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-10,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-10,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-10,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-10,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-10,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-10,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-10,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-10,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-10,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-10,G002,Tomato Sauce,Pantry,7,5.50,,false,in_stock
+2026-11-10,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-11,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-11,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-11,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-11,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-11,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-11,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-11,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-11,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-11,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-11,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-11,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-12,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-12,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-12,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-12,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-12,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-12,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-12,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-12,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-12,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-12,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-12,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-13,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-13,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-13,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-13,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-13,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-13,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-13,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-13,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-13,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-13,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-13,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-14,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-14,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-14,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-14,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-14,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-14,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-14,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-14,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-14,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-14,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-14,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-15,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-15,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-15,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-15,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-15,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-15,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-15,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-15,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-15,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-15,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-15,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-16,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-16,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-16,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-16,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-16,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-16,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-16,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-16,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-16,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-16,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-16,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-17,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-17,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-17,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-17,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-17,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-17,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-17,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-17,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-17,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-17,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-17,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-18,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-18,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-18,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-18,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-18,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-18,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-18,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-18,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-18,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-18,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-18,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-19,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-19,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-19,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-19,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-19,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-19,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-19,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-19,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-19,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-19,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-19,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-20,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-20,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-20,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-20,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-20,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-20,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-20,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-20,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-20,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-20,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-20,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-21,D001,Whole Milk 1L,Dairy,41,1.20,,false,in_stock
+2026-11-21,D002,Greek Yogurt,Dairy,22,1.63,,false,in_stock
+2026-11-21,B001,Sourdough Loaf,Bakery,18,2.06,,false,in_stock
+2026-11-21,B002,Croissants 4-pack,Bakery,14,2.49,,false,in_stock
+2026-11-21,P001,Bananas,Produce,36,2.92,,false,in_stock
+2026-11-21,P002,Baby Spinach,Produce,14,3.35,,false,in_stock
+2026-11-21,M001,Chicken Breast 500g,Meat,16,3.78,,false,in_stock
+2026-11-21,F001,Orange Juice 1L,Beverages,11,4.21,,false,in_stock
+2026-11-21,F002,Sparkling Water 6-pack,Beverages,9,4.64,,false,in_stock
+2026-11-21,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-21,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-22,D001,Whole Milk 1L,Dairy,55,1.20,Weekly Special,true,in_stock
+2026-11-22,D002,Greek Yogurt,Dairy,29,1.63,Weekly Special,true,in_stock
+2026-11-22,B001,Sourdough Loaf,Bakery,24,2.06,Weekly Special,true,in_stock
+2026-11-22,B002,Croissants 4-pack,Bakery,19,2.49,Weekly Special,true,in_stock
+2026-11-22,P001,Bananas,Produce,49,2.92,Weekly Special,true,in_stock
+2026-11-22,P002,Baby Spinach,Produce,19,3.35,Weekly Special,true,in_stock
+2026-11-22,M001,Chicken Breast 500g,Meat,22,3.78,Weekly Special,true,in_stock
+2026-11-22,F001,Orange Juice 1L,Beverages,15,4.21,Weekly Special,true,in_stock
+2026-11-22,F002,Sparkling Water 6-pack,Beverages,12,4.64,Weekly Special,true,in_stock
+2026-11-22,G001,Pasta 500g,Pantry,7,5.07,Weekly Special,true,in_stock
+2026-11-22,H001,Dish Soap,Household,4,5.93,Weekly Special,true,in_stock
+2026-11-23,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-23,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-23,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-23,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-23,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-23,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-23,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-23,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-23,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-23,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-23,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-24,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-24,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-24,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-24,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-24,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-24,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-24,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-24,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-24,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-24,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-24,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-25,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-25,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-25,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-25,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-25,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-25,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-25,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-25,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-25,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-25,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-25,H001,Dish Soap,Household,3,5.93,,false,in_stock
+2026-11-26,D001,Whole Milk 1L,Dairy,32,1.20,,false,in_stock
+2026-11-26,D002,Greek Yogurt,Dairy,18,1.63,,false,in_stock
+2026-11-26,B001,Sourdough Loaf,Bakery,15,2.06,,false,in_stock
+2026-11-26,B002,Croissants 4-pack,Bakery,12,2.49,,false,in_stock
+2026-11-26,P001,Bananas,Produce,28,2.92,,false,in_stock
+2026-11-26,P002,Baby Spinach,Produce,12,3.35,,false,in_stock
+2026-11-26,M001,Chicken Breast 500g,Meat,14,3.78,,false,in_stock
+2026-11-26,F001,Orange Juice 1L,Beverages,10,4.21,,false,in_stock
+2026-11-26,F002,Sparkling Water 6-pack,Beverages,8,4.64,,false,in_stock
+2026-11-26,G001,Pasta 500g,Pantry,5,5.07,,false,in_stock
+2026-11-26,H001,Dish Soap,Household,3,5.93,,false,in_stock

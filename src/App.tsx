@@ -6,13 +6,34 @@ import { loadSyntheticDataset } from './data/syntheticLoader';
 import { inferNextAsOfDate, prepareForecastContext } from './engine/forecaster';
 import { evaluateProductReplenishment, sortRecommendations } from './engine/replenishment';
 import { runHoldoutEvaluation } from './engine/replaySimulator';
-import { CalendarRow, DatasetLoadResult, ForecastHorizon, SalesRow } from './types/domain';
-import { parseCsvDatasets } from './utils/csvParser';
+import {
+  CalendarRecord,
+  DataIssue,
+  ForecastHorizon,
+  RetailDataset,
+  SalesRecord,
+} from './types/domain';
+import { parseCsvFile, validateLinks } from './utils/csvParser';
 
 type RiskFilter = 'All' | 'Urgent' | 'Watch' | 'Excess' | 'Healthy';
 
+interface LoadedAppDataset {
+  dataset: RetailDataset;
+  issues: DataIssue[];
+  sourceLabel: string;
+}
+
+function loadDemoState(): LoadedAppDataset {
+  const { dataset, issues } = loadSyntheticDataset();
+  return {
+    dataset,
+    issues,
+    sourceLabel: 'Synthetic Demo Dataset (120d history + 30d calendar)',
+  };
+}
+
 export const App: React.FC = () => {
-  const [dataset, setDataset] = useState<DatasetLoadResult>(() => loadSyntheticDataset());
+  const [loaded, setLoaded] = useState<LoadedAppDataset>(() => loadDemoState());
   const [horizon, setHorizon] = useState<ForecastHorizon>(7);
   const [globalLeadTime, setGlobalLeadTime] = useState<number>(3);
   const [showSafetyBuffer, setShowSafetyBuffer] = useState<boolean>(true);
@@ -24,27 +45,47 @@ export const App: React.FC = () => {
   const [showWarnings, setShowWarnings] = useState<boolean>(false);
 
   const handleUploadCsvs = (salesText: string, invText: string, calText: string, label: string) => {
-    const parsed = parseCsvDatasets(salesText, invText, calText, label);
-    setDataset(parsed);
+    const sales = parseCsvFile(salesText, 'sales', 'sales.csv');
+    const inventory = parseCsvFile(invText, 'inventory', 'inventory.csv');
+    const calendar = parseCsvFile(calText, 'calendar', 'calendar.csv');
+    const issues: DataIssue[] = [
+      ...sales.issues,
+      ...inventory.issues,
+      ...calendar.issues,
+      ...validateLinks(sales.records, inventory.records),
+    ];
+    setLoaded({
+      dataset: {
+        sales: sales.records,
+        inventory: inventory.records,
+        calendar: calendar.records,
+      },
+      issues,
+      sourceLabel: label,
+    });
     setSelectedId(null);
     setRiskFilter('All');
   };
 
   const handleResetDemo = () => {
-    setDataset(loadSyntheticDataset());
+    setLoaded(loadDemoState());
     setSelectedId(null);
     setRiskFilter('All');
     setSearchQuery('');
   };
 
+  const { dataset, issues, sourceLabel } = loaded;
+  const errors = useMemo(() => issues.filter((i) => i.severity === 'error'), [issues]);
+  const warnings = useMemo(() => issues.filter((i) => i.severity === 'warning'), [issues]);
+
   const calendarByDate = useMemo(() => {
-    const map = new Map<string, CalendarRow>();
+    const map = new Map<string, CalendarRecord>();
     for (const c of dataset.calendar) map.set(c.date, c);
     return map;
   }, [dataset.calendar]);
 
   const salesByProduct = useMemo(() => {
-    const map = new Map<string, SalesRow[]>();
+    const map = new Map<string, SalesRecord[]>();
     for (const s of dataset.sales) {
       const list = map.get(s.product_id) ?? [];
       list.push(s);
@@ -134,7 +175,7 @@ export const App: React.FC = () => {
         onGlobalLeadTimeChange={setGlobalLeadTime}
         showSafetyBuffer={showSafetyBuffer}
         onToggleSafetyBuffer={() => setShowSafetyBuffer((v) => !v)}
-        sourceLabel={dataset.sourceLabel}
+        sourceLabel={sourceLabel}
         onUploadCsvs={handleUploadCsvs}
         onResetDemo={handleResetDemo}
         activeTab={activeTab}
@@ -142,12 +183,15 @@ export const App: React.FC = () => {
       />
 
       <main className="main-content">
-        {dataset.errors.length > 0 && (
+        {errors.length > 0 && (
           <div className="validation-error-banner">
             <strong>CSV Validation Errors:</strong>
             <ul>
-              {dataset.errors.map((err, idx) => (
-                <li key={idx}>{err}</li>
+              {errors.map((err, idx) => (
+                <li key={idx}>
+                  [{err.file}
+                  {err.row ? ` row ${err.row}` : ''}] {err.message}
+                </li>
               ))}
             </ul>
           </div>
@@ -300,30 +344,25 @@ export const App: React.FC = () => {
               />
             </section>
 
-            {(dataset.excludedProducts.length > 0 || dataset.warnings.length > 0) && (
+            {warnings.length > 0 && (
               <section className="warnings-drawer">
                 <button
                   type="button"
                   className="warnings-toggle"
                   onClick={() => setShowWarnings((v) => !v)}
                 >
-                  <span>
-                    Excluded Products &amp; Data Hygiene ({dataset.excludedProducts.length} excluded,{' '}
-                    {dataset.warnings.length} warnings)
-                  </span>
+                  <span>Data Hygiene &amp; Linkage Warnings ({warnings.length})</span>
                   <span>{showWarnings ? 'Hide' : 'Show'}</span>
                 </button>
                 {showWarnings && (
                   <div className="warnings-body">
-                    {dataset.excludedProducts.map((ex, i) => (
-                      <div key={`ex-${i}`} className="warning-item">
-                        <span className="badge badge-watch">{ex.reason}</span>{' '}
-                        <strong>{ex.product ?? ex.product_id}</strong> ({ex.product_id}): {ex.details}
-                      </div>
-                    ))}
-                    {dataset.warnings.slice(0, 20).map((w, i) => (
+                    {warnings.slice(0, 30).map((w, i) => (
                       <div key={`w-${i}`} className="warning-item">
-                        <strong>[{w.file}{w.row ? ` row ${w.row}` : ''}]</strong> {w.message}
+                        <strong>
+                          [{w.file}
+                          {w.row ? ` row ${w.row}` : ''}]
+                        </strong>{' '}
+                        {w.message}
                       </div>
                     ))}
                   </div>

@@ -1,17 +1,17 @@
 import {
-  CalendarRow,
+  CalendarRecord,
   DailyForecastPoint,
   FallbackLevel,
   ForecastHorizon,
   ProductForecast,
-  SalesRow,
+  SalesRecord,
 } from '../types/domain';
 import { addDays, diffDays, getDayOfWeek } from '../utils/dateUtils';
 
 export interface ForecastContext {
   asOfDate: string;
-  calendarByDate: Map<string, CalendarRow>;
-  salesByProduct: Map<string, SalesRow[]>;
+  calendarByDate: Map<string, CalendarRecord>;
+  salesByProduct: Map<string, SalesRecord[]>;
   categoryDailyAvg: Map<string, number>;
   storeMedianDaily: number;
   categoryEventLift: Map<string, number>;
@@ -48,9 +48,9 @@ function clamp(val: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, val));
 }
 
-function isCalendarEvent(cal: CalendarRow | undefined): boolean {
+function isCalendarEvent(cal: CalendarRecord | undefined): boolean {
   if (!cal) return false;
-  return cal.holiday || cal.festival || cal.promotion_event;
+  return Boolean(cal.holiday || cal.festival || cal.promotion_event);
 }
 
 /**
@@ -59,16 +59,16 @@ function isCalendarEvent(cal: CalendarRow | undefined): boolean {
  * Future calendar rows (>= asOfDate) are retained only for scheduled event lookup.
  */
 export function prepareForecastContext(
-  sales: SalesRow[],
-  calendar: CalendarRow[],
+  sales: SalesRecord[],
+  calendar: CalendarRecord[],
   asOfDate: string
 ): ForecastContext {
-  const calendarByDate = new Map<string, CalendarRow>();
+  const calendarByDate = new Map<string, CalendarRecord>();
   for (const row of calendar) {
     calendarByDate.set(row.date, row);
   }
 
-  const salesByProduct = new Map<string, SalesRow[]>();
+  const salesByProduct = new Map<string, SalesRecord[]>();
   const categoryTotals = new Map<string, number[]>();
   const allRecentQtys: number[] = [];
 
@@ -90,7 +90,7 @@ export function prepareForecastContext(
     list.push(row);
 
     const cal = calendarByDate.get(row.date);
-    const isEv = row.is_promotion || isCalendarEvent(cal);
+    const isEv = Boolean(row.is_promotion) || isCalendarEvent(cal);
 
     if (row.date >= windowStart) {
       let catArr = categoryTotals.get(row.category);
@@ -142,23 +142,26 @@ export function prepareForecastContext(
 }
 
 function cleanProductObservations(
-  rows: SalesRow[],
-  calendarByDate: Map<string, CalendarRow>,
+  rows: SalesRecord[],
+  calendarByDate: Map<string, CalendarRecord>,
   asOfDate: string,
   stockoutDates?: Set<string>
 ): { recent56: CleanObservation[]; allClean: CleanObservation[]; stockoutDaysExcluded: number } {
   const windowStart = addDays(asOfDate, -56);
   let stockoutDaysExcluded = 0;
 
-  const rawValid: { row: SalesRow; isEvent: boolean }[] = [];
+  const rawValid: { row: SalesRecord; isEvent: boolean }[] = [];
   for (const row of rows) {
     if (row.date >= asOfDate) continue;
-    if (stockoutDates?.has(row.date)) {
+    const isRowStockout =
+      row.stock_availability?.trim().toLowerCase() === 'out_of_stock' ||
+      row.stock_availability?.trim().toLowerCase() === 'stockout';
+    if (isRowStockout || stockoutDates?.has(row.date)) {
       stockoutDaysExcluded++;
       continue;
     }
     const cal = calendarByDate.get(row.date);
-    const isEvent = row.is_promotion || isCalendarEvent(cal);
+    const isEvent = Boolean(row.is_promotion) || isCalendarEvent(cal);
     rawValid.push({ row, isEvent });
   }
 
@@ -339,7 +342,7 @@ export function forecastProduct(
 /**
  * Determines the default forecast start date (1 day after the latest sales date).
  */
-export function inferNextAsOfDate(sales: SalesRow[]): string {
+export function inferNextAsOfDate(sales: SalesRecord[]): string {
   if (sales.length === 0) return '2026-11-27';
   let maxDate = sales[0].date;
   for (const s of sales) {
@@ -348,7 +351,7 @@ export function inferNextAsOfDate(sales: SalesRow[]): string {
   return addDays(maxDate, 1);
 }
 
-export function getLatestSalesWindowDates(sales: SalesRow[], days: number): string[] {
+export function getLatestSalesWindowDates(sales: SalesRecord[], days: number): string[] {
   if (sales.length === 0) return [];
   let maxDate = sales[0].date;
   for (const s of sales) {
