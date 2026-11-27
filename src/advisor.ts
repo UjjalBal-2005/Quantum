@@ -1,11 +1,19 @@
 import type { ForecastHorizon, ProductRecommendation } from './types/domain';
-import { MOCK_RECS } from './mock/mockRecommendations';
+import { loadSyntheticDataset } from './data/syntheticLoader';
+import { inferNextAsOfDate, prepareForecastContext } from './engine/forecaster';
+import { evaluateProductReplenishment, sortRecommendations } from './engine/replenishment';
 
-// THE ONE SEAM: today this returns fake demo data so the UI runs.
-// In the wiring step we replace the body with real calls to the engines.
 export function getRecommendations(
-  _horizon: ForecastHorizon,
-  _leadTime: number
+  horizon: ForecastHorizon,
+  leadTime: number
 ): ProductRecommendation[] {
-  return MOCK_RECS;
+  const { dataset } = loadSyntheticDataset();
+  const asOfDate = inferNextAsOfDate(dataset.sales);
+  const context = prepareForecastContext(dataset.sales, dataset.calendar, asOfDate);
+
+  const recommendations = dataset.inventory.map((inventory) =>
+    evaluateProductReplenishment(inventory, horizon, leadTime, context)
+  );
+
+  return sortRecommendations(recommendations);
 }
