@@ -58,6 +58,63 @@ export type ImportKind = keyof RetailDataset;
 
 // Agent 2, 3, 4: Forecasting, Replenishment & Holdout Contracts
 export type ForecastHorizon = 7 | 14 | 30;
+export type ForecastEngineMode = 'statistical' | 'python_ml';
+export type MlRiskClass = 'Urgent' | 'Watch' | 'Healthy' | 'Excess';
+
+export interface MlFeatureDriver {
+  feature: string;
+  label: string;
+  importance: number;
+}
+
+export interface MlProductResult {
+  productId: string;
+  engineUsed: 'python_sklearn' | 'statistical_fallback';
+  dailyForecast: { date: string; predictedUnits: number }[];
+  horizonDemand: number;
+  demand14d: number;
+  mlRiskClass: MlRiskClass;
+  mlRiskConfidence: number;
+  trainingSamples: number;
+  topDrivers: MlFeatureDriver[];
+}
+
+export interface TrainForecastResponse {
+  results: MlProductResult[];
+  trainingTimeMs: number;
+}
+
+export interface MlHoldoutProductMetric {
+  productId: string;
+  product: string;
+  category: string;
+  actualTotal: number;
+  mlMae: number;
+  mlWmape: number;
+  mlStockoutDays: number;
+  mlEndingStock: number;
+}
+
+export interface MlHoldoutEvalResponse {
+  holdoutDays: number;
+  startDate: string;
+  endDate: string;
+  portfolioMlMae: number;
+  portfolioMlWmape: number;
+  totalMlStockoutDays: number;
+  totalMlEndingStock: number;
+  productsEvaluated: number;
+  perProduct: MlHoldoutProductMetric[];
+  assumptions: string[];
+}
+
+export interface MlForecastMetadata {
+  engineUsed: 'python_sklearn' | 'statistical_fallback';
+  mlRiskClass?: MlRiskClass;
+  mlRiskConfidence?: number;
+  trainingSamples: number;
+  topDrivers: { label: string; importance: number }[];
+}
 
 export type FallbackLevel = 'weekday' | 'product_avg' | 'category_avg' | 'store_median';
 
@@ -86,6 +143,7 @@ export interface ProductForecast {
   stockoutDaysExcluded: number;
   fallbackLevel: FallbackLevel;
   activeEventNotes: string[];
+  mlMetadata?: MlForecastMetadata;
 }
 
 export type ReplenishmentStatus = 'Urgent' | 'Watch' | 'Healthy';

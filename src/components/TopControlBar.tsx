@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { ForecastHorizon } from '../types/domain';
+import { ForecastEngineMode, ForecastHorizon } from '../types/domain';
 
 interface TopControlBarProps {
   horizon: ForecastHorizon;
@@ -8,6 +8,12 @@ interface TopControlBarProps {
   onGlobalLeadTimeChange: (days: number) => void;
   showSafetyBuffer: boolean;
   onToggleSafetyBuffer: () => void;
+  engineMode: ForecastEngineMode;
+  onEngineModeChange: (mode: ForecastEngineMode) => void;
+  mlOnline: boolean;
+  mlTrainingMs: number | null;
+  mlLoading: boolean;
+  onRefreshMlHealth: () => void;
   sourceLabel: string;
   onUploadCsvs: (salesText: string, invText: string, calText: string, label: string) => void;
   onResetDemo: () => void;
@@ -22,6 +28,12 @@ export const TopControlBar: React.FC<TopControlBarProps> = ({
   onGlobalLeadTimeChange,
   showSafetyBuffer,
   onToggleSafetyBuffer,
+  engineMode,
+  onEngineModeChange,
+  mlOnline,
+  mlTrainingMs,
+  mlLoading,
+  onRefreshMlHealth,
   sourceLabel,
   onUploadCsvs,
   onResetDemo,
@@ -141,6 +153,39 @@ export const TopControlBar: React.FC<TopControlBarProps> = ({
           />
           <span>Show Safety Buffer in Table</span>
         </label>
+
+        <div className="control-group">
+          <span className="control-label">Engine:</span>
+          <div className="segmented-control">
+            <button
+              type="button"
+              className={`seg-btn ${engineMode === 'statistical' ? 'active' : ''}`}
+              onClick={() => onEngineModeChange('statistical')}
+            >
+              Browser Statistical
+            </button>
+            <button
+              type="button"
+              className={`seg-btn ${engineMode === 'python_ml' ? 'active' : ''}`}
+              onClick={() => onEngineModeChange('python_ml')}
+            >
+              Python ML (scikit-learn)
+            </button>
+          </div>
+          <button
+            type="button"
+            className={`ml-status-pill ${mlOnline ? 'online' : 'offline'}`}
+            onClick={onRefreshMlHealth}
+            title="Click to re-check Python ML service (http://localhost:8000)"
+          >
+            <i className="status-dot" />
+            {mlLoading
+              ? 'Training ML...'
+              : mlOnline
+                ? `Python ML Connected${mlTrainingMs !== null ? ` (${Math.round(mlTrainingMs)}ms)` : ''}`
+                : 'Offline — Using Browser Fallback'}
+          </button>
+        </div>
 
         <div className="data-actions">
           <button
